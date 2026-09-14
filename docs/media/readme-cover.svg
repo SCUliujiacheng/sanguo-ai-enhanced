@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+  <title id="title">三国群英传 AI 加强版</title>
+  <desc id="desc">把时间留给运筹帷幄。自动内政、自动战斗、装备自动分配。14 个时期，255 名武将。</desc>
+  <defs>
+    <linearGradient id="ink" x2="1" y2="1"><stop stop-color="#111f25"/><stop offset="1" stop-color="#091215"/></linearGradient>
+    <linearGradient id="gold"><stop stop-color="#ead6a3"/><stop offset="1" stop-color="#aa844b"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#b99252" stop-opacity=".15"/><stop offset="1" stop-color="#b99252" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#b6aa8a" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1280" height="460" rx="12" fill="url(#ink)"/>
+  <rect width="1280" height="460" rx="12" fill="url(#grid)"/>
+  <ellipse cx="1010" cy="140" rx="380" ry="340" fill="url(#glow)"/>
+  <rect x="22" y="22" width="1236" height="416" rx="3" fill="none" stroke="#c5a469" stroke-opacity=".32"/>
+  <path d="M22 65V22H65M1215 22H1258V65M22 395V438H65M1215 438H1258V395" fill="none" stroke="#c5a469" stroke-width="2"/>
+  <g fill="none" stroke="#8b9d8e" stroke-linejoin="round">
+    <path d="M675 127L747 94 790 113 855 64 921 86 967 65 1035 96 1090 79 1199 125M681 148L748 113 790 132 855 85 921 106 970 88 1030 117 1090 101 1195 147" opacity=".14"/>
+    <path d="M719 281L786 257 826 276 890 232 944 252 990 221 1049 246 1114 231 1220 283M709 307L786 278 826 296 890 254 944 276 990 246 1049 268 1114 257 1223 308" opacity=".12"/>
+    <path d="M747 70C736 109 783 140 761 176S789 221 756 255S759 298 725 328M1015 47C984 103 1057 132 1040 180S1120 227 1098 267S1119 309 1140 325" stroke="#739f9b" stroke-width="2" opacity=".2"/>
+    <path d="M790 158L916 122 1074 186 965 275 817 283 790 158M916 122L965 275M790 158L1074 186" stroke="#ccac6c" opacity=".5" stroke-dasharray="4 7"/>
+    <path d="M842 178Q890 190 914 221M905 216L914 221 914 211" stroke="#d8ba7b" stroke-width="2" opacity=".55"/>
+  </g>
+  <g fill="#13272a" stroke="#c6a66d" stroke-width="1.5"><circle cx="790" cy="158" r="6"/><circle cx="916" cy="122" r="6"/><circle cx="1074" cy="186" r="6"/><circle cx="965" cy="275" r="6"/><circle cx="817" cy="283" r="6"/></g>
+  <g fill="#adbaad" font-family="'Noto Serif CJK SC','Songti SC',SimSun,serif" font-size="17"><text x="756" y="193">长安</text><text x="881" y="157">洛阳</text><text x="1085" y="220">建业</text><text x="924" y="311">江陵</text><text x="775" y="316">成都</text></g>
+  <g stroke="#c5a469" stroke-width="1.5"><path d="M916 121V61"/><path d="M916 61H965L956 79 965 96H916Z" fill="#705636"/><path d="M1074 184V131"/><path d="M1074 131H1123L1114 149 1123 166H1074Z" fill="#773c31"/><path d="M817 281V221"/><path d="M817 221H866L857 239 866 256H817Z" fill="#345c53"/></g>
+  <g fill="#f2e4c5" font-family="'Noto Serif CJK SC','Songti SC',SimSun,serif" font-size="22" text-anchor="middle"><text x="938" y="87">魏</text><text x="1096" y="157">吴</text><text x="839" y="247">蜀</text></g>
+  <g font-family="'Noto Serif CJK SC','Songti SC',SimSun,serif">
+    <text x="72" y="83" fill="#b9a47b" font-family="Arial,sans-serif" font-size="13" letter-spacing="4">SANGUO / STRATEGY ENHANCED</text>
+    <text x="68" y="170" fill="url(#gold)" font-size="72" font-weight="700" letter-spacing="5">三国群英传</text>
+    <rect x="72" y="193" width="159" height="35" rx="3" fill="#c5a469"/>
+    <text x="151" y="217" fill="#112124" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" text-anchor="middle" letter-spacing="2">AI 加强版</text>
+    <text x="72" y="281" fill="#e2e4d8" font-size="27" letter-spacing="3">把时间留给运筹帷幄</text>
+    <text x="72" y="320" fill="#94a5a2" font-family="'Microsoft YaHei',sans-serif" font-size="16">更省心的经营，更有分量的每一步。</text>
+  </g>
+  <path d="M72 355H1208" stroke="#c5a469" stroke-opacity=".25"/>
+  <g font-family="'Microsoft YaHei',sans-serif" font-size="17" fill="#d7d3c3">
+    <path d="M73 389l5-5 5 5-5 5Z" fill="#c5a469"/><text x="94" y="396">自动内政</text>
+    <path d="M231 389l5-5 5 5-5 5Z" fill="#c5a469"/><text x="252" y="396">自动战斗</text>
+    <path d="M389 389l5-5 5 5-5 5Z" fill="#c5a469"/><text x="410" y="396">装备自动分配</text>
+    <text x="953" y="397" fill="#bda574" font-family="Georgia,serif" font-size="31">14</text><text x="995" y="395" fill="#94a5a2" font-size="14">时期</text>
+    <path d="M1049 376V405" stroke="#c5a469" stroke-opacity=".3"/>
+    <text x="1080" y="397" fill="#bda574" font-family="Georgia,serif" font-size="31">255</text><text x="1142" y="395" fill="#94a5a2" font-size="14">武将</text>
+  </g>
+</svg>

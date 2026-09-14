@@ -6,7 +6,8 @@
 - 新增：官渡争锋、三顾茅庐、潼关风云、入主巴蜀、汉中争夺、夷陵之战、北伐中原、英雄集结、孤城逆袭。
 - 历史搜将按**登场年份、活动地区、当时阵营**筛选。历史归属势力真正灭亡后，允许当地占领者招募。已经归队或被俘的人才不会被强制改写归属。
 - 玩家与电脑共用搜索条件；两个架空挑战保留自由搜索。
-- 延续上一版金钱转移修复、更谨慎的 AI 出兵与自动战斗功能。
+- 延续上一版金钱转移修复与更谨慎的 AI 出兵。
+- 保留加强版既有的三项扩展：**自动内政**可按自选顺序批量安排事务，**自动战斗**支持单次和全体快速结算，**装备自动分配**统筹全势力库存与武将现有装备。这三项相对原版的扩展并非 v1.2.0 首次新增，入口与配图见[功能图解](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/blob/main/docs/FEATURES.md)。
 
 255 名武将均有规则条目，其中 34 名采用重点史料时序或时代校正，其他条目明确区分剧本推定、保守推定与演义角色；地区映射和同年内转投有游戏化约定。具体规则和出处公开在仓库，欢迎有出处的纠错。
 
@@ -18,4 +19,4 @@
 
 SHA-256：`3fccf9eaa39d528d54da659997a2d3bb6adfadf461db5737e53fc3752ff79f8c`
 
-[安装与存档](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/blob/main/docs/INSTALL.md) · [历史搜将说明](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/blob/main/docs/RECRUITMENT.md) · [验证记录](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/blob/main/docs/VALIDATION-v1.2.0.md) · [反馈问题](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/issues)
+[功能图解](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/blob/main/docs/FEATURES.md) · [安装与存档](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/blob/main/docs/INSTALL.md) · [历史搜将说明](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/blob/main/docs/RECRUITMENT.md) · [验证记录](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/blob/main/docs/VALIDATION-v1.2.0.md) · [反馈问题](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/issues)

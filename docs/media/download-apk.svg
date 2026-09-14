@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="54" viewBox="0 0 244 54" role="img" aria-labelledby="title">
+  <title id="title">下载 Android APK，v1.2.0</title>
+  <rect x="1" y="1" width="242" height="52" rx="7" fill="#c5a469" stroke="#b39258"/>
+  <g fill="none" stroke="#142629" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M27 17v14m-5-5 5 5 5-5M19 33v5h16v-5"/></g>
+  <text x="49" y="34" fill="#142629" font-family="'Microsoft YaHei',Arial,sans-serif" font-weight="700" font-size="17">下载 APK</text>
+  <path d="M146 14v26" stroke="#142629" stroke-opacity=".2"/>
+  <text x="192" y="33" fill="#142629" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">v1.2.0</text>
+</svg>
