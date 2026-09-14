@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="docs/media/readme-cover.svg" alt="三国群英传 AI 加强版：自动内政、自动战斗、装备自动分配，14 个时期、255 名武将" width="100%">
+  <img src="docs/media/game-main-menu.jpg" alt="三国群英传游戏主菜单：蓝天白云、游戏原标志与开始游戏面板" width="860">
 </p>
 
 <p align="center">
-  <strong>经典三国，多一点谋略，少一点重复操作。</strong><br>
+  <strong>三国群英传 AI 加强版</strong><br>
   相比原版，增加三项自动化功能，并带来策略 AI、历史搜将与更多开局。
 </p>
 
