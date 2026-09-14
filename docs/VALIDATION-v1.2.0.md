@@ -1,6 +1,6 @@
 # 1.2.0 验证记录
 
-验证对象：`三国群英传-多时期与历史搜将版-v1.2.0.apk`，64,204,022 字节。
+验证对象：`sanguo-ai-enhanced-v1.2.0.apk`，64,204,022 字节。
 
 APK SHA-256：`3fccf9eaa39d528d54da659997a2d3bb6adfadf461db5737e53fc3752ff79f8c`
 
