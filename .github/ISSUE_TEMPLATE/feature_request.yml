@@ -1,0 +1,30 @@
+name: 玩法与剧本建议
+description: 提出时期、架空挑战、AI 或体验改进建议
+title: "[建议] "
+body:
+  - type: input
+    id: theme
+    attributes:
+      label: 建议主题
+      placeholder: 例如：新增某个历史时期、调整某个势力开局、改进 AI 集结
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 目前遇到的玩法问题
+      description: 请描述具体游戏情境，以及它为什么影响乐趣或博弈。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 希望怎样改进
+      description: 剧本建议可说明年份、主要势力、起始局势；架空挑战请说明规则和目标。
+    validations:
+      required: true
+  - type: textarea
+    id: balance
+    attributes:
+      label: 难度与平衡考虑（可选）
+      description: 哪些玩家或势力会变强、变弱？希望鼓励哪些策略？

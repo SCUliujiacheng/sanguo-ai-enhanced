@@ -1,0 +1,61 @@
+name: 问题反馈
+description: 报告安装、存档、剧本、金钱或 AI 行为问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先核对实际安装的 APK 文件名。遇到存档或安装问题时，请保留原存档和旧应用数据。
+        上传截图或附件前请移除个人信息，不要上传签名私钥或账号密码。
+  - type: input
+    id: version
+    attributes:
+      label: 游戏版本 / APK 完整文件名
+      placeholder: 从 Release 下载的版本与实际安装文件名
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备和系统
+      placeholder: 手机型号、Android 版本；若用模拟器，请写名称与版本
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - 安装或更新
+        - 存档或读档
+        - 时期菜单或剧本开局
+        - 金钱或城市资源
+        - 电脑 AI
+        - 战斗或自动战斗
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: scenario
+    attributes:
+      label: 剧本、势力与游戏年月
+      placeholder: 例如：官渡争锋 / 曹操 / 开局；无法进入游戏可填“不适用”
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 从哪个界面开始、点了什么、发生了什么？尽量写出可重复的步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: 预期结果与实际结果
+      description: 金钱问题请写操作前后城市与部队金额；AI 问题请写双方将数、兵力和伤势。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图、错误提示或其他信息
+      description: 可补充是否使用旧存档、是否稳定复现。请先移除个人信息。

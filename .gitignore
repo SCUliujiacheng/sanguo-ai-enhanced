@@ -1,0 +1,66 @@
+# APKs are distributed as Release assets, not tracked in Git.
+*.apk
+*.aab
+*.apks
+*.xapk
+
+# Original / extracted game content and local build workspaces.
+/original/
+/local/
+/cache/
+/extracted/
+/decompiled/
+/managed/
+/assets/
+/work/
+/tools/
+/build/
+/dist/
+**/bin/
+**/obj/
+
+# Tool binaries, archives and caches.
+*.dll
+*.exe
+*.jar
+*.so
+*.zip
+*.7z
+*.tar
+*.gz
+*.otf
+*.ttf
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.venv/
+venv/
+
+# Signing identity, credentials and local settings.
+keys/
+*.jks
+*.keystore
+*.pk8
+*.p12
+*.pfx
+*.pem
+*.key
+*.der
+*.crt
+.env
+.env.*
+!.env.example
+*credentials*.json
+*secrets*.json
+local.properties
+
+# Device data, logs and local verification reports may contain private paths.
+/SAVES/
+*.SAV.xml
+*.log
+*.verification.json
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
