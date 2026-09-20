@@ -1,8 +1,8 @@
 # 功能图解
 
-[返回首页](../README.md) · [下载游戏](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/releases/latest) · [安装与存档](INSTALL.md)
+[返回首页](../README.md) · [下载游戏](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/releases/tag/v1.3.0) · [安装与存档](INSTALL.md)
 
-自动内政、自动战斗和装备自动分配，都是加强版相对原版的扩展功能。**v1.2.0 沿用这三项既有功能**，并继续扩充时期、历史搜将和策略体验。本页配图由玩家提供，红框和箭头保留图片中的原有标注。
+自动内政、自动战斗和装备自动分配，都是加强版相对原版的扩展功能。**v1.3.0 保留这三项功能并重新调整战斗规则**，详情见[三兵种、升迁、智力冷却与协同攻城](GAMEPLAY-v1.3.0.md)。本页配图由玩家提供，红框和箭头保留图片中的原有标注。
 
 ## 自动内政：选好顺序，一键安排
 

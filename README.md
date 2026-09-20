@@ -4,11 +4,11 @@
 
 <p align="center">
   <strong>三国群英传 AI 加强版</strong><br>
-  相比原版，增加三项自动化功能，并带来策略 AI、历史搜将与更多开局。
+  三兵种，更直观的升迁，更会用技能的智将；保留三项自动化与十四个时期。
 </p>
 
 <p align="center">
-  <a href="https://github.com/SCUliujiacheng/sanguo-ai-enhanced/releases/download/v1.2.0/sanguo-ai-enhanced-v1.2.0.apk"><img src="docs/media/download-apk.svg" width="244" height="54" alt="下载 Android APK v1.2.0"></a>
+  <a href="https://github.com/SCUliujiacheng/sanguo-ai-enhanced/releases/download/v1.3.0/sanguo-ai-enhanced-v1.3.0.apk"><img src="docs/media/download-apk.svg" width="244" height="54" alt="下载 Android APK v1.3.0 测试版"></a>
 </p>
 
 <p align="center">
@@ -18,7 +18,24 @@
   <a href="https://github.com/SCUliujiacheng/sanguo-ai-enhanced/issues">反馈建议</a>
 </p>
 
-<p align="center"><sub>Android APK · 当前版本 1.2.0 · 非官方同人加强版</sub></p>
+<p align="center"><sub>Android APK · 当前测试版 1.3.0 · 非官方同人加强版</sub></p>
+
+## v1.3.0 · 少记规则，多做选择
+
+**弓箭兵 → 长枪兵 → 朴刀兵 → 弓箭兵**，箭头表示克制。
+
+| 这次更新 | 玩起来有什么不同 |
+| --- | --- |
+| 三兵种与三类兵符 | 征兵、搜兵符和装备分配使用同一套规则，旧档自动转换并保留总兵力。 |
+| 升迁直接显示技能 | 候选按钮写明学到哪一招，将领资料也用技能名替代官职。 |
+| 智将冷却加成 | 实战与自动战斗统一蓄技；智力 90 / 100 的额外冷却减免为 30% / 40%。 |
+| 自动战斗整体调整 | 根据强弱、伤势、克制和可用技能结算；连续作战保留实际消耗。 |
+| 多队协同攻城 | 电脑可组织最多三队进攻重镇，核对真实后援并保留守军。 |
+| 新时期旗帜修复 | 城市与行军旗帜统一映射，潼关的马超、曹操清楚区分。 |
+
+[查看完整玩法与旧档转换](docs/GAMEPLAY-v1.3.0.md) · [查看验证报告](docs/VALIDATION-v1.3.0.md)
+
+**此版标记为测试版**：176 项程序集行为回归与 APK 校验通过，尚未完成安卓实机验收。覆盖安装前备份重要存档，首次转换后建议另存空槽。
 
 ## 看得见的加强，玩得到的省心
 
@@ -55,7 +72,7 @@
 </tr>
 </table>
 
-三项自动化是本加强版相对原版的既有扩展；**1.2.0 在这些功能基础上新增时期与历史搜将**。自动内政按次执行，自动战斗有正常战损，装备分配会重新安排现有装备。详见[功能与操作说明](docs/FEATURES.md)。
+三项自动化是本加强版相对原版的既有扩展；**1.2.0 新增时期与历史搜将，1.3.0 继续改进兵种、技能与攻城策略**。自动内政按次执行，自动战斗有正常战损，装备分配会重新安排现有装备。详见[功能与操作说明](docs/FEATURES.md)。
 
 ## 经营更省心，攻守更讲究
 
@@ -97,8 +114,8 @@
 
 ## 三步开始
 
-1. **下载安装包**：点击上方金色按钮，获取 `sanguo-ai-enhanced-v1.2.0.apk`；Source code ZIP / TAR 是仓库文件。
-2. **安装或覆盖更新**：1.2.0 沿用上一“经济修复与 AI 优化”修改版的签名。先保护重要存档；来源 APK 签名不同，不能直接覆盖。[安装说明 →](docs/INSTALL.md)
+1. **下载安装包**：点击上方金色按钮，获取 `sanguo-ai-enhanced-v1.3.0.apk`；Source code ZIP / TAR 是仓库文件。
+2. **安装或覆盖更新**：1.3.0 沿用本项目 1.2.0 的修改版签名。先保护重要存档；来源 APK 签名不同，不能直接覆盖。[安装说明 →](docs/INSTALL.md)
 3. **选择剧本与势力**：进入新游戏，选定时期；内政用“总内政”，配装用“自动分配”，迎战时可选择自动结算。
 
 ## 一起把这个版本做得更好
@@ -110,12 +127,12 @@
 | 功能怎么用、自动化处理到哪一步 | [功能与操作](docs/FEATURES.md) |
 | 想调整开局与人才规则 | [剧本配置](scenarios/README.md) · [生成工具](scripts/README.md) |
 | 这个版本改了什么 | [更新记录](CHANGELOG.md) |
-| 测过哪些内容 | [1.2.0 验证报告](docs/VALIDATION-v1.2.0.md) |
+| 测过哪些内容 | [1.3.0 验证报告](docs/VALIDATION-v1.3.0.md) |
 
 <details>
 <summary>验证范围与项目说明</summary>
 
-1.2.0 最终程序集通过 **29 项经济 / AI 回归、44 项时期 / 搜将检查**；另有 **18 项数据测试**，APK 签名与逐项内容校验通过。本轮尚未完成 Android 安装与实玩验收；自动化代码核查不等于所有设备的运行验证。
+1.3.0 最终程序集通过 **176 项行为回归**，包括经济、时期与旧档、三兵种、战斗及协同攻城；APK 签名与逐项内容校验通过。本轮尚未完成 Android 安装与实玩验收；自动化代码核查不等于所有设备的运行验证。
 
 本仓库公开版本说明、剧本配置、生成工具与新增辅助类。安装包在 Releases 提供，仓库不是完整 APK 的一键编译工程。
 
