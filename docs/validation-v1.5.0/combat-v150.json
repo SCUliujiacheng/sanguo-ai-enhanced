@@ -1,0 +1,143 @@
+{
+  "failures": 0,
+  "count": 31,
+  "assembly": "<workspace>\\tools\\CombatDllTests\\bin\\Debug\\net9.0\\Assembly-CSharp.dll",
+  "sha256": "6996ed712a809dc580484e4a9ee0f5956895797e111fe261b2dc3dedb5b31c21",
+  "scope": "Actual compiled game DLL, direct production method execution. No Android renderer or real-time input simulation.",
+  "metrics": {
+    "equalForceLeftWinRate": 0.494,
+    "counterWinRate_8_vs_2": 0.988,
+    "counterWinRate_2_vs_1": 0.944,
+    "counterWinRate_1_vs_8": 0.836,
+    "threeTimesNumbersAgainstCounterWinRate": 1,
+    "highStrengthWinRate": 1,
+    "intellect30CastCount": 3,
+    "intellect100CastCount": 8
+  },
+  "tests": [
+    {
+      "name": "spell charging is independent of strength at fixed intellect",
+      "passed": true
+    },
+    {
+      "name": "the old threshold cooldown bonus is no longer stacked on intellect charging",
+      "passed": true
+    },
+    {
+      "name": "cooldown decreases monotonically and never reaches zero",
+      "passed": true
+    },
+    {
+      "name": "first cast follows the actual partially charged 60/132 meter",
+      "passed": true
+    },
+    {
+      "name": "troop cycle uses real save bit IDs",
+      "passed": true
+    },
+    {
+      "name": "equal force has no systematic left-side advantage",
+      "passed": true
+    },
+    {
+      "name": "equal force counter wins in aggregate: 8 > 2",
+      "passed": true
+    },
+    {
+      "name": "counter advantage survives side reversal: 8 > 2",
+      "passed": true
+    },
+    {
+      "name": "equal force counter wins in aggregate: 2 > 1",
+      "passed": true
+    },
+    {
+      "name": "counter advantage survives side reversal: 2 > 1",
+      "passed": true
+    },
+    {
+      "name": "equal force counter wins in aggregate: 1 > 8",
+      "passed": true
+    },
+    {
+      "name": "counter advantage survives side reversal: 1 > 8",
+      "passed": true
+    },
+    {
+      "name": "overwhelming numbers can overcome a counter",
+      "passed": true
+    },
+    {
+      "name": "higher strength matters without changing troop numbers",
+      "passed": true
+    },
+    {
+      "name": "wounded forces are weaker than fresh forces",
+      "passed": true
+    },
+    {
+      "name": "a win against a peer costs real resources",
+      "passed": true
+    },
+    {
+      "name": "simulation does not mutate its input snapshots",
+      "passed": true
+    },
+    {
+      "name": "same seed returns the same duel result",
+      "passed": true
+    },
+    {
+      "name": "intellect creates more casting opportunities without bonus damage",
+      "passed": true
+    },
+    {
+      "name": "insufficient mana prevents a cast",
+      "passed": true
+    },
+    {
+      "name": "skill selection switches to affordable skills",
+      "passed": true
+    },
+    {
+      "name": "all 50 shipped skills have a useful classified effect",
+      "passed": true
+    },
+    {
+      "name": "healing skills heal and never attack",
+      "passed": true
+    },
+    {
+      "name": "reinforcements are capped by their real tier",
+      "passed": true
+    },
+    {
+      "name": "soldier-only attacks do not damage generals",
+      "passed": true
+    },
+    {
+      "name": "direct skills use ATTACK, not constant POWER=100",
+      "passed": true
+    },
+    {
+      "name": "troop lock duration matches actual five seconds",
+      "passed": true
+    },
+    {
+      "name": "full-health heal and full-army reinforcements are not wasted",
+      "passed": true
+    },
+    {
+      "name": "healing/reinforcement output never exceeds capacity",
+      "passed": true
+    },
+    {
+      "name": "replacement selection prefers a counter with equal strength",
+      "passed": true
+    },
+    {
+      "name": "zero-health candidates cannot be selected",
+      "passed": true
+    }
+  ]
+}

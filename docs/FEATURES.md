@@ -1,6 +1,6 @@
 # 功能图解
 
-[返回首页](../README.md) · [下载游戏](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/releases/tag/v1.4.2) · [安装与存档](INSTALL.md)
+[返回首页](../README.md) · [下载游戏](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/releases/tag/v1.5.0) · [安装与存档](INSTALL.md)
 
 自动内政、自动战斗和装备自动分配，都是加强版相对原版的扩展功能。**v1.3.0 保留这三项功能并重新调整战斗规则**，详情见[三兵种、升迁、智力冷却与协同攻城](GAMEPLAY-v1.3.0.md)。本页配图由玩家提供，红框和箭头保留图片中的原有标注。
 
@@ -57,3 +57,5 @@ v1.4.0 新增[兵符按需搜索、君主显示修复和跨月进攻筹备](GAME
 v1.4.1 修复[自动战斗技能加载与超时和局结算](GAMEPLAY-v1.4.1.md)。
 
 v1.4.2 修复[手动战斗施法后的剑形技能条显示](GAMEPLAY-v1.4.2.md)。
+
+v1.5.0 改为[仅智力决定的对数充能速率](GAMEPLAY-v1.5.0.md)，手动与自动共用；武力不再替代智力加速。

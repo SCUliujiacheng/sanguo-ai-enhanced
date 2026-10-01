@@ -1,0 +1,18 @@
+{
+  "original_apk": "<workspace>\\tools\\packaging\\work\\dfd738b8c6654f9bb0651e3a03085904\\source.apk",
+  "output_apk": "<workspace>\\tools\\packaging\\work\\dfd738b8c6654f9bb0651e3a03085904\\signed.apk",
+  "original_apk_sha256": "9d01877389d7788a60b6be610ced7221515ccc17190763f7aebc935e1e89c169",
+  "output_apk_sha256": "b7e8a707a79b78e0d2f7c701b76035340dbc32489409aea4412d3c174502a308",
+  "assembly_sha256": "6996ed712a809dc580484e4a9ee0f5956895797e111fe261b2dc3dedb5b31c21",
+  "assembly_path": "assets/bin/Data/Managed/Assembly-CSharp.dll",
+  "unchanged_payload_entries": 2519,
+  "replacement_entries": 2,
+  "replacement_paths": [
+    "assets/bin/Data/Managed/Assembly-CSharp.dll",
+    "AndroidManifest.xml"
+  ],
+  "all_zip_crc_valid": true,
+  "only_assembly_and_signatures_changed": false,
+  "only_requested_payloads_and_signatures_changed": true,
+  "manifest_override_sha256": "cf57075852bff32c254ad7c43f2841d4a805eb8e0c7d8efcd5b11832777b6721"
+}

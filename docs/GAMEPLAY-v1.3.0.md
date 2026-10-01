@@ -1,5 +1,7 @@
 # 三兵种与智谋策略版
 
+> 本页记录 v1.3.0 的历史规则；当前 v1.5.0 已将充能改为仅看智力，详见[最新充能规则](GAMEPLAY-v1.5.0.md)。
+
 [返回首页](../README.md) · [下载 APK](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/releases/tag/v1.3.0)
 
 ## 只记住一个克制环

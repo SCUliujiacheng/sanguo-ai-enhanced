@@ -1,0 +1,309 @@
+{
+  "source": "<workspace>\\work\\intellect-charge-v1.5.0\\Assembly-CSharp.dll",
+  "sha256": "6996ed712a809dc580484e4a9ee0f5956895797e111fe261b2dc3dedb5b31c21",
+  "failures": 0,
+  "count": 15,
+  "adaptations": [
+    "Actual DLL WSInfoPanel.Update, OnGeneralInfoUpdate, OnTimeLeftUpdate, OnSwordStateUpdate, ResetSwordValue, WarSceneController.SetIsSwordFull/IsSwordFull, GeneralController.GetState/IsCanReleaseMagic and MagicController.OnGeneralSetMagic/OnMagicOver bytecode is retained. Unity Time.deltaTime is supplied by the test. Actual original ex2D clipping width getter/setter bytecode is retained on uninitialized boundary fixtures; exPlane updateFlags rendering dispatch is a no-op. Sprite color and font text setters are no-op render boundaries; GeneralController.SetOnMagic's native animation is a no-op. Resource loading, prefab instantiate/destroy and gray overlay rendering are stubbed. Original MagicConfig XML parsing is retained. No Android renderer or scene/touch behavior is claimed.",
+    "Actual DLL CombatRules and AutoBattleMath bytecode, including the private CreateState and complete Simulate methods, is retained unchanged. The long-life, high-MP simulation fixtures isolate charging opportunities and MP conservation; they do not represent normal gameplay balance.",
+    "The hand-battle opportunity test executes 990 real Update calls at 0.1 seconds each. Its fixture countdown begins at 1000 so native scene/time-up handling is not invoked. Real skill permission, bar reset and MP deductions execute; native animation duration, skill effects, Android scene and GPU drawing are not simulated. Manual-versus-auto timing tolerances account for float/frame quantization and the established manual one-pixel charge floor."
+  ],
+  "metrics": {
+    "curvePoints": [
+      {
+        "intellect": 0,
+        "rate": 0.5,
+        "firstSeconds": 144,
+        "repeatSeconds": 264
+      },
+      {
+        "intellect": 20,
+        "rate": 2.9780648,
+        "firstSeconds": 24.176775,
+        "repeatSeconds": 44.324085
+      },
+      {
+        "intellect": 30,
+        "rate": 4.1338105,
+        "firstSeconds": 17.417343,
+        "repeatSeconds": 31.931797
+      },
+      {
+        "intellect": 40,
+        "rate": 5.2403603,
+        "firstSeconds": 13.739513,
+        "repeatSeconds": 25.189108
+      },
+      {
+        "intellect": 60,
+        "rate": 7.3214707,
+        "firstSeconds": 9.834089,
+        "repeatSeconds": 18.029165
+      },
+      {
+        "intellect": 80,
+        "rate": 9.248279,
+        "firstSeconds": 7.7852325,
+        "repeatSeconds": 14.272926
+      },
+      {
+        "intellect": 100,
+        "rate": 11.042093,
+        "firstSeconds": 6.5205026,
+        "repeatSeconds": 11.954255
+      },
+      {
+        "intellect": 120,
+        "rate": 12.720095,
+        "firstSeconds": 5.660335,
+        "repeatSeconds": 10.377281
+      }
+    ],
+    "strengthCounterfactualManualTicks": [
+      {
+        "intellect": 30,
+        "strength": 1,
+        "first": 175,
+        "repeat": 318
+      },
+      {
+        "intellect": 30,
+        "strength": 70,
+        "first": 175,
+        "repeat": 318
+      },
+      {
+        "intellect": 30,
+        "strength": 120,
+        "first": 175,
+        "repeat": 318
+      },
+      {
+        "intellect": 100,
+        "strength": 1,
+        "first": 66,
+        "repeat": 120
+      },
+      {
+        "intellect": 100,
+        "strength": 70,
+        "first": 66,
+        "repeat": 120
+      },
+      {
+        "intellect": 100,
+        "strength": 120,
+        "first": 66,
+        "repeat": 120
+      }
+    ],
+    "equalLogIntervals": {
+      "first": 4.740360260009766,
+      "second": 4.740360260009766
+    },
+    "int100To30RateRatio": 2.671165704727173,
+    "manualAutoTicks": [
+      {
+        "intellect": 0,
+        "manualFirstTicks": 1440,
+        "autoFirstTicks": 1440,
+        "manualRepeatTicks": 2621,
+        "autoRepeatTicks": 2640,
+        "floorAllowance": 22
+      },
+      {
+        "intellect": 30,
+        "manualFirstTicks": 175,
+        "autoFirstTicks": 175,
+        "manualRepeatTicks": 318,
+        "autoRepeatTicks": 320,
+        "floorAllowance": 5
+      },
+      {
+        "intellect": 60,
+        "manualFirstTicks": 99,
+        "autoFirstTicks": 99,
+        "manualRepeatTicks": 180,
+        "autoRepeatTicks": 181,
+        "floorAllowance": 4
+      },
+      {
+        "intellect": 100,
+        "manualFirstTicks": 66,
+        "autoFirstTicks": 66,
+        "manualRepeatTicks": 120,
+        "autoRepeatTicks": 120,
+        "floorAllowance": 3
+      },
+      {
+        "intellect": 120,
+        "manualFirstTicks": 57,
+        "autoFirstTicks": 57,
+        "manualRepeatTicks": 104,
+        "autoRepeatTicks": 104,
+        "floorAllowance": 3
+      }
+    ],
+    "frameQuantization": [
+      {
+        "intellect": 30,
+        "delta": 0.05,
+        "first": 349,
+        "repeat": 635,
+        "firstSeconds": 17.45,
+        "repeatSeconds": 31.75
+      },
+      {
+        "intellect": 30,
+        "delta": 0.1,
+        "first": 175,
+        "repeat": 318,
+        "firstSeconds": 17.5,
+        "repeatSeconds": 31.800001
+      },
+      {
+        "intellect": 30,
+        "delta": 0.2,
+        "first": 88,
+        "repeat": 160,
+        "firstSeconds": 17.6,
+        "repeatSeconds": 32
+      },
+      {
+        "intellect": 100,
+        "delta": 0.05,
+        "first": 131,
+        "repeat": 239,
+        "firstSeconds": 6.55,
+        "repeatSeconds": 11.95
+      },
+      {
+        "intellect": 100,
+        "delta": 0.1,
+        "first": 66,
+        "repeat": 120,
+        "firstSeconds": 6.6,
+        "repeatSeconds": 12
+      },
+      {
+        "intellect": 100,
+        "delta": 0.2,
+        "first": 33,
+        "repeat": 60,
+        "firstSeconds": 6.6,
+        "repeatSeconds": 12
+      }
+    ],
+    "auto99Seconds": [
+      {
+        "intellect": 30,
+        "casts": 3,
+        "mana": 970,
+        "winner": 2,
+        "leftHealth": 99918,
+        "rightHealth": 99911
+      },
+      {
+        "intellect": 100,
+        "casts": 8,
+        "mana": 920,
+        "winner": 2,
+        "leftHealth": 99918,
+        "rightHealth": 99901
+      }
+    ],
+    "manual99Seconds": [
+      {
+        "intellect": 30,
+        "manualCasts": 3,
+        "autoCasts": 3,
+        "mana": 946,
+        "skillCost": 18,
+        "castSeconds": [
+          17.5,
+          49.3,
+          81.1
+        ]
+      },
+      {
+        "intellect": 100,
+        "manualCasts": 8,
+        "autoCasts": 8,
+        "mana": 856,
+        "skillCost": 18,
+        "castSeconds": [
+          6.6,
+          18.6,
+          30.6,
+          42.6,
+          54.6,
+          66.6,
+          78.6,
+          90.6
+        ]
+      }
+    ]
+  },
+  "tests": [
+    {
+      "name": "rate follows declared INT-only logarithmic curve at 0,20,30,40,60,80,100,120",
+      "passed": true
+    },
+    {
+      "name": "strength cannot change skill charge rate at fixed INT 30 or 100",
+      "passed": true
+    },
+    {
+      "name": "actual visible charge first and repeat ticks ignore STR 1,70,120 at INT 30 and 100",
+      "passed": true
+    },
+    {
+      "name": "log-equal intervals INT 0 to 40 and 40 to 88 produce equal rate increments",
+      "passed": true
+    },
+    {
+      "name": "every INT point 0 through 120 speeds charging with diminishing returns",
+      "passed": true
+    },
+    {
+      "name": "INT 100 charge frequency exceeds INT 30 by at least 2.5 times",
+      "passed": true
+    },
+    {
+      "name": "negative intellect clamps to zero and intellect above 120 clamps to 120 without invalid rates",
+      "passed": true
+    },
+    {
+      "name": "legacy intellect cooldown multiplier is neutral and no longer compounds the curve",
+      "passed": true
+    },
+    {
+      "name": "auto private initial state uses remaining 72 charge and repeat cooldown uses 132",
+      "passed": true
+    },
+    {
+      "name": "actual hand and auto charge times agree within float and retained one-pixel floor quantization",
+      "passed": true
+    },
+    {
+      "name": "first and repeat actual hand charging remain stable across 50,100,200 ms frame steps",
+      "passed": true
+    },
+    {
+      "name": "actual 99-second auto duel gives INT100 at least 2.5 times INT30 casts and conserves MP",
+      "passed": true
+    },
+    {
+      "name": "actual hand 99-second opportunity count matches auto within quantized timings",
+      "passed": true
+    },
+    {
+      "name": "zero mana does not stall the actual bar but blocks skill use",
+      "passed": true
+    },
+    {
+      "name": "menu pause and skill animation state preserve the new INT-only charging semantics",
+      "passed": true
+    }
+  ]
+}

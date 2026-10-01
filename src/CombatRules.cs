@@ -5,13 +5,17 @@ public static class CombatRules
 {
     public static float GetCooldownMultiplier(int intellect)
     {
-        return 1f - Math.Min(45, Math.Max(0, intellect - 60)) / 100f;
+        // Kept for existing callers; the single charge curve already contains
+        // the full intellect benefit, without a second threshold bonus.
+        return 1f;
     }
 
     public static float GetMagicChargePerSecond(int strength, int intellect)
     {
-        int ability = Math.Min(120, Math.Max(0, Math.Max(strength, intellect)));
-        return (ability / 30f + 3f) / GetCooldownMultiplier(intellect);
+        // Strength remains in the signature for compatibility, not in the rule.
+        // Positive, increasing logarithmic rate with diminishing returns.
+        int ability = Math.Min(120, Math.Max(0, intellect));
+        return (float)(0.5 + 26.0 * Math.Log(1.0 + ability / 200.0));
     }
 
     public static int GetMagicCooldownTicks(int strength, int intellect, bool firstCast)

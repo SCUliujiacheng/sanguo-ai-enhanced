@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "baseline": "<workspace>\\work\\skill-meter-fix-v1.4.2\\Assembly-CSharp.dll",
+  "candidate": "<workspace>\\work\\intellect-charge-v1.5.0\\Assembly-CSharp.dll",
+  "baseline_sha256": "a3b8d24d0335c358c6203cd3d3d4dc253bcebabf285053a8e3bb41e81d30511f",
+  "candidate_sha256": "6996ed712a809dc580484e4a9ee0f5956895797e111fe261b2dc3dedb5b31c21",
+  "runtime": "v2.0.50727",
+  "errors": [],
+  "changed_methods": [
+    "System.Single CombatRules::GetCooldownMultiplier(System.Int32)",
+    "System.Single CombatRules::GetMagicChargePerSecond(System.Int32,System.Int32)"
+  ],
+  "changed_method_il": [
+    {
+      "method": "System.Single CombatRules::GetCooldownMultiplier(System.Int32)",
+      "canonical_il": "INIT False STACK 8\n\nldc.r4 1\nret \n"
+    },
+    {
+      "method": "System.Single CombatRules::GetMagicChargePerSecond(System.Int32,System.Int32)",
+      "canonical_il": "INIT True STACK 5\nSystem.Int32 [mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]\nldc.i4.s 120\nldc.i4.0 \nldarg.1 \ncall System.Int32 System.Math::Max(System.Int32,System.Int32) [mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]\ncall System.Int32 System.Math::Min(System.Int32,System.Int32) [mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]\nstloc.0 \nldc.r8 0.5\nldc.r8 26\nldc.r8 1\nldloc.0 \nconv.r8 \nldc.r8 200\ndiv \nadd \ncall System.Double System.Math::Log(System.Double) [mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]\nmul \nadd \nconv.r4 \nret \n"
+    }
+  ],
+  "baseline_type_count": 456,
+  "candidate_type_count": 456,
+  "baseline_field_count": 3109,
+  "candidate_field_count": 3109,
+  "original_method_count": 3346,
+  "candidate_method_count": 3346,
+  "unchanged_method_count": 3344,
+  "added_fields": 0,
+  "added_methods": 0,
+  "added_assembly_references": [],
+  "resources": [
+    {
+      "name": "Scenarios.HistoricalRecruitment.xml",
+      "same": true,
+      "sha256": "a14832048090e1b0fc5f26621ad0cee169e17580aaa760abc05738fd80d540f9"
+    },
+    {
+      "name": "Scenarios.MenuFont.LICENSE.txt",
+      "same": true,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "name": "Scenarios.MenuFont.NOTICE.txt",
+      "same": true,
+      "sha256": "53a8392df9295188ca1f92e5fefb35df0198ac9815dacbf8e0993b3ca1043173"
+    },
+    {
+      "name": "Scenarios.MenuFont.png",
+      "same": true,
+      "sha256": "764789e47ca7204dd1be29cfe366de9b33a927d769c2a239198398b550729187"
+    },
+    {
+      "name": "Scenarios.MenuFont.xml",
+      "same": true,
+      "sha256": "4a4482b49c0d255d03f2604ef7dd5e111d87080100bf95c8d35c4996451a5c88"
+    },
+    {
+      "name": "Scenarios.MOD06.xml",
+      "same": true,
+      "sha256": "c7929b1c1e10bc596358a454e576776b998403a604e1644820692dc4469a1378"
+    },
+    {
+      "name": "Scenarios.MOD07.xml",
+      "same": true,
+      "sha256": "28cd40c4691d91bd0184092e2733941a58d0d58b50fe28a147960fbeefb65674"
+    },
+    {
+      "name": "Scenarios.MOD08.xml",
+      "same": true,
+      "sha256": "d2bbba799c4847ec1360fde3ae1e21db1d11c7f172c1dfaa9668d4f3d1ea40c5"
+    },
+    {
+      "name": "Scenarios.MOD09.xml",
+      "same": true,
+      "sha256": "b1812786cae0f17afe7f581ed0075a166d0bbfa4701196970987716577f33420"
+    },
+    {
+      "name": "Scenarios.MOD10.xml",
+      "same": true,
+      "sha256": "3e7c7a07ceab2e0571eae63b0cf8824fb71753b260bab7a63a3c7c259ca02e59"
+    },
+    {
+      "name": "Scenarios.MOD11.xml",
+      "same": true,
+      "sha256": "47cbb903bd02d1e4f7733c7e7a9e06bd6fac9397f837c2c09d9914d875e342e4"
+    },
+    {
+      "name": "Scenarios.MOD12.xml",
+      "same": true,
+      "sha256": "8ccddeb98e8940a460a554405f9147c6f7ea5f35e55393328ba5b0a97c922882"
+    },
+    {
+      "name": "Scenarios.MOD13.xml",
+      "same": true,
+      "sha256": "70c8dbe4c06395681ccbe4f0d065ec9fd47cabd8cf90444966653b576db5b5b9"
+    },
+    {
+      "name": "Scenarios.MOD14.xml",
+      "same": true,
+      "sha256": "194fba10a9b99d6f71d07e981a61aaa2907abd0736bfc119d56c8e6d867c5b38"
+    },
+    {
+      "name": "Scenarios.RulerFlags.LICENSE.txt",
+      "same": true,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "name": "Scenarios.RulerFlags.NOTICE.txt",
+      "same": true,
+      "sha256": "a4a4a750d4d17e6b327f44afe94b950e750eee806b41f60f5fbfa2b242b7c7cd"
+    },
+    {
+      "name": "Scenarios.RulerFlags.png",
+      "same": true,
+      "sha256": "fff11b443a059613dbe8c306b6c13c7d1c1cc16faca8fc00e4fe0c5f75a945ed"
+    },
+    {
+      "name": "Scenarios.RulerFlags.xml",
+      "same": true,
+      "sha256": "016be8edce18a89899615bbe4763d8b61b10e87711e3f3de3f92c9e7aa5ab68f"
+    }
+  ],
+  "calls": [
+    {
+      "from": "System.Single CombatRules::GetMagicChargePerSecond(System.Int32,System.Int32)",
+      "method": "System.Int32 System.Math::Max(System.Int32,System.Int32)",
+      "scope": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "resolved_assembly": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "resolved_path": "<workspace>\\work\\managed\\mscorlib.dll"
+    },
+    {
+      "from": "System.Single CombatRules::GetMagicChargePerSecond(System.Int32,System.Int32)",
+      "method": "System.Int32 System.Math::Min(System.Int32,System.Int32)",
+      "scope": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "resolved_assembly": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "resolved_path": "<workspace>\\work\\managed\\mscorlib.dll"
+    },
+    {
+      "from": "System.Single CombatRules::GetMagicChargePerSecond(System.Int32,System.Int32)",
+      "method": "System.Double System.Math::Log(System.Double)",
+      "scope": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "resolved_assembly": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "resolved_path": "<workspace>\\work\\managed\\mscorlib.dll"
+    }
+  ],
+  "strength_independent": true,
+  "legacy_multiplier_neutral": true,
+  "v142_meter_methods_preserved": [
+    {
+      "method": "LateUpdate",
+      "same": true
+    },
+    {
+      "method": "RefreshSkillMeterClipping",
+      "same": true
+    },
+    {
+      "method": "OnSwordStateUpdate",
+      "same": true
+    },
+    {
+      "method": "ResetSwordValue",
+      "same": true
+    }
+  ],
+  "charge_formula": "0.5 + 26 * ln(1 + clamp(intellect, 0, 120) / 200)",
+  "limitations": [
+    "This audit compares actual candidate IL and resolves its new Math calls against the original APK profile. It does not execute Android Mono or native rendering.",
+    "Automatic combat uses 0.1-second quantization; visible combat uses frame delta and preserves the original minimum-one-pixel clamp after a reset. Differences below one charge unit remain existing behavior.",
+    "Readiness remains separate from available MP and tactical skill selection; faster charge alone does not remove mana limits or guarantee a useful skill exists."
+  ]
+}
