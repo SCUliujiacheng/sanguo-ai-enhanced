@@ -1,0 +1,99 @@
+{
+  "source": "<workspace>\\work\\auto-fix-v1.4.1\\Assembly-CSharp.dll",
+  "sha256": "5701378B5D06476CB99881E21FDE5892AE64AC8737E216F195EE7562FB217433",
+  "failures": 0,
+  "adaptations": [
+    "Integer Random.Range uses a controlled percentile on the first draw, then a controlled item choice. Search selection, recruitment filters and actual inventory mutations execute the supplied game DLL.",
+    "For manual search only, Time.deltaTime is 1, Component.get_gameObject, GameObject.SetActive and DialogueController.SetDialogue are harmless scene boundary stubs. UI rendering and Android execution are not tested."
+  ],
+  "tests": [
+    {
+      "name": "IAController actual search produces seals at exactly 8 percent with unmet demand",
+      "passed": true,
+      "evidence": {
+        "seals": 8,
+        "equipment": 20,
+        "formations": 20,
+        "draws": 100
+      }
+    },
+    {
+      "name": "IAController actual search stops duplicate seals once learned or stocked",
+      "passed": true,
+      "evidence": {
+        "allLearnedSuppressed": true,
+        "crossCityStockSuppressed": true
+      }
+    },
+    {
+      "name": "IAOverController actual search produces seals at exactly 8 percent with unmet demand",
+      "passed": true,
+      "evidence": {
+        "seals": 8,
+        "equipment": 33,
+        "formations": 33,
+        "draws": 100
+      }
+    },
+    {
+      "name": "IAOverController actual search stops duplicate seals once learned or stocked",
+      "passed": true,
+      "evidence": {
+        "allLearnedSuppressed": true,
+        "crossCityStockSuppressed": true
+      }
+    },
+    {
+      "name": "SearchingController actual search produces seals at exactly 8 percent with unmet demand",
+      "passed": true,
+      "evidence": {
+        "seals": 8,
+        "equipment": 20,
+        "formations": 20,
+        "draws": 100
+      }
+    },
+    {
+      "name": "SearchingController actual search stops duplicate seals once learned or stocked",
+      "passed": true,
+      "evidence": {
+        "allLearnedSuppressed": true,
+        "crossCityStockSuppressed": true
+      }
+    },
+    {
+      "name": "Seal demand counts marching allies and excludes captives and rivals",
+      "passed": true,
+      "evidence": {
+        "marching": 1,
+        "captivesExcluded": true,
+        "rivalsExcluded": true
+      }
+    },
+    {
+      "name": "Stock caps follow remaining learners and resume after consumption or new recruitment",
+      "passed": true,
+      "evidence": {
+        "cap": "1..3 per family",
+        "consumptionResumes": true,
+        "newLearnerResumes": true
+      }
+    },
+    {
+      "name": "Long midgame search does not accumulate redundant seals",
+      "passed": true,
+      "evidence": {
+        "forcedSealSearches": 500,
+        "storedSeals": 4
+      }
+    },
+    {
+      "name": "Neutral cities and full warehouses do not receive seals",
+      "passed": true,
+      "evidence": {
+        "neutralRejected": true,
+        "fullRejected": true
+      }
+    }
+  ]
+}

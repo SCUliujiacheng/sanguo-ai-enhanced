@@ -1,0 +1,198 @@
+{
+  "source": "<workspace>\\work\\auto-fix-v1.4.1\\Assembly-CSharp.dll",
+  "sha256": "5701378B5D06476CB99881E21FDE5892AE64AC8737E216F195EE7562FB217433",
+  "failures": 0,
+  "count": 15,
+  "scope": "Actual compiled CPU AttackArmy/AttackCity, ArmyMoveController and settlement IL. Consumer-contract cases supply ResolveDuel results; warmed healing cases execute actual BuildUnit/ResolveDuel/Simulate using all 50 original MagicConfig records. Unity rendering/route and level-up boundaries stubbed. No Android renderer.",
+  "tests": [
+    {
+      "name": "Field first duel draw preserves resources, ownership and money",
+      "passed": true,
+      "evidence": {
+        "same": true,
+        "money": true,
+        "targetKing": 1,
+        "attackerHP": 140,
+        "defenderHP": 140
+      }
+    },
+    {
+      "name": "City first duel draw preserves resources, ownership and money",
+      "passed": true,
+      "evidence": {
+        "same": true,
+        "money": true,
+        "targetKing": 1,
+        "attackerHP": 140,
+        "defenderHP": 140
+      }
+    },
+    {
+      "name": "Field prior genuine defender victory then draw settles only captured loser",
+      "passed": true,
+      "evidence": {
+        "lists": true,
+        "survivors": true,
+        "money": true,
+        "captured": 0,
+        "owner": 1,
+        "attackerGenerals": [
+          1
+        ],
+        "defenderGenerals": [
+          2,
+          3
+        ],
+        "capturedCity": -1
+      }
+    },
+    {
+      "name": "Field prior genuine attacker victory then draw settles only captured loser",
+      "passed": true,
+      "evidence": {
+        "lists": true,
+        "survivors": true,
+        "money": true,
+        "captured": 2,
+        "owner": 0,
+        "attackerGenerals": [
+          0,
+          1
+        ],
+        "defenderGenerals": [
+          3
+        ],
+        "capturedCity": -1
+      }
+    },
+    {
+      "name": "City prior genuine defender victory then draw settles only captured loser",
+      "passed": true,
+      "evidence": {
+        "lists": true,
+        "survivors": true,
+        "money": true,
+        "captured": 0,
+        "owner": 1,
+        "attackerGenerals": [
+          1
+        ],
+        "defenderGenerals": [
+          2,
+          3
+        ],
+        "capturedCity": 1
+      }
+    },
+    {
+      "name": "City prior genuine attacker victory then draw settles only captured loser",
+      "passed": true,
+      "evidence": {
+        "lists": true,
+        "survivors": true,
+        "money": true,
+        "captured": 2,
+        "owner": 0,
+        "attackerGenerals": [
+          0,
+          1
+        ],
+        "defenderGenerals": [
+          3
+        ],
+        "capturedCity": -1
+      }
+    },
+    {
+      "name": "Field draw retreats surviving armies to friendly sources",
+      "passed": true,
+      "evidence": {
+        "attacker": true,
+        "defender": true,
+        "armies": 2
+      }
+    },
+    {
+      "name": "City draw retreats surviving armies to friendly sources",
+      "passed": true,
+      "evidence": {
+        "attacker": true,
+        "defender": true,
+        "armies": 2
+      }
+    },
+    {
+      "name": "Field pending ruler capture changes fallen faction to bandits without awarding conquest",
+      "passed": true,
+      "evidence": {
+        "fallen": true,
+        "captured": true,
+        "updates": 2,
+        "targetKing": 2,
+        "prefect": 2
+      }
+    },
+    {
+      "name": "City pending ruler capture changes fallen faction to bandits without awarding conquest",
+      "passed": true,
+      "evidence": {
+        "fallen": true,
+        "captured": true,
+        "updates": 2,
+        "targetKing": 2,
+        "prefect": 3
+      }
+    },
+    {
+      "name": "Draw with all routes unavailable garrisons both armies and does not immediately restart encounter",
+      "passed": true,
+      "evidence": {
+        "before": 1,
+        "after": 1,
+        "state": 3
+      }
+    },
+    {
+      "name": "Assigning a new route clears draw disengagement and restores normal garrison encounter",
+      "passed": true,
+      "evidence": {
+        "before": 1,
+        "after": 2
+      }
+    },
+    {
+      "name": "Lost source uses another friendly city rather than retreating into enemy territory",
+      "passed": true,
+      "evidence": {
+        "destination": 2,
+        "state": 1
+      }
+    },
+    {
+      "name": "Field actual warmed healing simulation timeout does not clear armies or capture generals",
+      "passed": true,
+      "evidence": {
+        "result": 2,
+        "expectedLeftHP": 128,
+        "expectedRightHP": 150,
+        "actualLeftHP": 128,
+        "actualRightHP": 150,
+        "conserved": true,
+        "noReward": true
+      }
+    },
+    {
+      "name": "City actual warmed healing simulation timeout does not clear armies or capture generals",
+      "passed": true,
+      "evidence": {
+        "result": 2,
+        "expectedLeftHP": 128,
+        "expectedRightHP": 150,
+        "actualLeftHP": 128,
+        "actualRightHP": 150,
+        "conserved": true,
+        "noReward": true
+      }
+    }
+  ]
+}

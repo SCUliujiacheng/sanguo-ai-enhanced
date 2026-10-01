@@ -1,0 +1,923 @@
+{
+  "source": "<workspace>\\work\\auto-fix-v1.4.1\\Assembly-CSharp.dll",
+  "sha256": "5701378B5D06476CB99881E21FDE5892AE64AC8737E216F195EE7562FB217433",
+  "failures": 0,
+  "adaptations": [
+    "The tested game assembly is copied in memory. Only Unity Application storage paths and PlayerPrefs writes become fixed-path/no-op test methods.",
+    "Original 0-4 scenario XML is seeded from extracted original APK assets into the catalog cache; Unity Resources/TextAsset native calls become unused stubs. Expanded 5-13 XML is loaded from the actual assembly's embedded resources.",
+    "MODLoadController.LoadMOD, full game-state initialization, ZhongWen.GetKingName, RecordController.SaveRecord and LoadRecord otherwise execute their complete game-state and serialization bytecode unchanged.",
+    "This does not execute Unity scene rendering or Android touch dispatch."
+  ],
+  "tests": [
+    {
+      "name": "Actual embedded font covers every catalog title and page control",
+      "passed": true,
+      "evidence": {
+        "width": 256,
+        "height": 256,
+        "glyphCount": 92,
+        "verifiedCharacters": 67
+      }
+    },
+    {
+      "name": "Original scenario IDs retain independently checked opening years",
+      "passed": true,
+      "evidence": {
+        "years": [
+          184,
+          190,
+          200,
+          208,
+          219
+        ]
+      }
+    },
+    {
+      "name": "Fictional periods are explicitly labelled before selection",
+      "passed": true,
+      "evidence": {
+        "first": "英雄集结(架空)",
+        "second": "孤城逆袭(架空)"
+      }
+    },
+    {
+      "name": "Scenario 0 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 0,
+        "name": "黄巾之乱",
+        "year": 184,
+        "kingCount": 14,
+        "selectableCount": 6,
+        "ownedCities": 21,
+        "rulerNames": [
+          "何进",
+          "张角",
+          "孙坚",
+          "董卓",
+          "丁原",
+          "公孙瓒",
+          "刘焉",
+          "韩馥",
+          "龚景",
+          "乔玄",
+          "陶谦",
+          "孔岫",
+          "刘繇",
+          "严白虎"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 0 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 0,
+        "restoredIndex": 0,
+        "restoredYear": 187,
+        "restoredMoney": 43210,
+        "kingCount": 14
+      }
+    },
+    {
+      "name": "Scenario 1 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 1,
+        "name": "讨伐董卓",
+        "year": 190,
+        "kingCount": 18,
+        "selectableCount": 7,
+        "ownedCities": 27,
+        "rulerNames": [
+          "曹操",
+          "刘备",
+          "孙坚",
+          "董卓",
+          "袁绍",
+          "袁术",
+          "公孙瓒",
+          "韩馥",
+          "孔融",
+          "乔瑁",
+          "马腾",
+          "陶谦",
+          "孔岫",
+          "刘表",
+          "刘繇",
+          "严白虎",
+          "王朗",
+          "刘焉"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 1 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 1,
+        "restoredIndex": 1,
+        "restoredYear": 193,
+        "restoredMoney": 43211,
+        "kingCount": 18
+      }
+    },
+    {
+      "name": "Scenario 2 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 2,
+        "name": "群雄割据",
+        "year": 200,
+        "kingCount": 8,
+        "selectableCount": 5,
+        "ownedCities": 35,
+        "rulerNames": [
+          "曹操",
+          "刘备",
+          "孙权",
+          "袁绍",
+          "马腾",
+          "刘表",
+          "刘璋",
+          "张鲁"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 2 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 2,
+        "restoredIndex": 2,
+        "restoredYear": 203,
+        "restoredMoney": 43212,
+        "kingCount": 8
+      }
+    },
+    {
+      "name": "Scenario 3 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 3,
+        "name": "赤壁之战",
+        "year": 208,
+        "kingCount": 8,
+        "selectableCount": 5,
+        "ownedCities": 33,
+        "rulerNames": [
+          "曹操",
+          "刘备",
+          "孙权",
+          "马腾",
+          "孟获",
+          "刘璋",
+          "张鲁",
+          "金旋"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 3 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 3,
+        "restoredIndex": 3,
+        "restoredYear": 211,
+        "restoredMoney": 43213,
+        "kingCount": 8
+      }
+    },
+    {
+      "name": "Scenario 4 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 4,
+        "name": "三国鼎立",
+        "year": 219,
+        "kingCount": 5,
+        "selectableCount": 5,
+        "ownedCities": 31,
+        "rulerNames": [
+          "曹操",
+          "刘备",
+          "孙权",
+          "孟获",
+          "彻里吉"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 4 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 4,
+        "restoredIndex": 4,
+        "restoredYear": 222,
+        "restoredMoney": 43214,
+        "kingCount": 5
+      }
+    },
+    {
+      "name": "Scenario 5 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 5,
+        "name": "官渡争锋",
+        "year": 200,
+        "kingCount": 8,
+        "selectableCount": 8,
+        "ownedCities": 44,
+        "rulerNames": [
+          "曹操",
+          "袁绍",
+          "刘备",
+          "孙策",
+          "马腾",
+          "刘表",
+          "刘璋",
+          "张鲁"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 5 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 5,
+        "restoredIndex": 5,
+        "restoredYear": 203,
+        "restoredMoney": 43215,
+        "kingCount": 8
+      }
+    },
+    {
+      "name": "Scenario 6 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 6,
+        "name": "三顾茅庐",
+        "year": 207,
+        "kingCount": 8,
+        "selectableCount": 8,
+        "ownedCities": 45,
+        "rulerNames": [
+          "曹操",
+          "刘备",
+          "孙权",
+          "马腾",
+          "刘表",
+          "刘璋",
+          "张鲁",
+          "公孙康"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 6 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 6,
+        "restoredIndex": 6,
+        "restoredYear": 210,
+        "restoredMoney": 43216,
+        "kingCount": 8
+      }
+    },
+    {
+      "name": "Scenario 7 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 7,
+        "name": "潼关风云",
+        "year": 211,
+        "kingCount": 7,
+        "selectableCount": 7,
+        "ownedCities": 45,
+        "rulerNames": [
+          "曹操",
+          "刘备",
+          "孙权",
+          "马超",
+          "刘璋",
+          "张鲁",
+          "公孙康"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 7 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 7,
+        "restoredIndex": 7,
+        "restoredYear": 214,
+        "restoredMoney": 43217,
+        "kingCount": 7
+      }
+    },
+    {
+      "name": "Scenario 8 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 8,
+        "name": "入主巴蜀",
+        "year": 214,
+        "kingCount": 6,
+        "selectableCount": 6,
+        "ownedCities": 45,
+        "rulerNames": [
+          "曹操",
+          "刘备",
+          "孙权",
+          "刘璋",
+          "张鲁",
+          "公孙康"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 8 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 8,
+        "restoredIndex": 8,
+        "restoredYear": 217,
+        "restoredMoney": 43218,
+        "kingCount": 6
+      }
+    },
+    {
+      "name": "Scenario 9 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 9,
+        "name": "汉中争夺",
+        "year": 219,
+        "kingCount": 4,
+        "selectableCount": 4,
+        "ownedCities": 45,
+        "rulerNames": [
+          "曹操",
+          "刘备",
+          "孙权",
+          "公孙康"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 9 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 9,
+        "restoredIndex": 9,
+        "restoredYear": 222,
+        "restoredMoney": 43219,
+        "kingCount": 4
+      }
+    },
+    {
+      "name": "Scenario 10 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 10,
+        "name": "夷陵之战",
+        "year": 222,
+        "kingCount": 3,
+        "selectableCount": 3,
+        "ownedCities": 44,
+        "rulerNames": [
+          "曹丕",
+          "刘备",
+          "孙权"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 10 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 10,
+        "restoredIndex": 10,
+        "restoredYear": 225,
+        "restoredMoney": 43220,
+        "kingCount": 3
+      }
+    },
+    {
+      "name": "Scenario 11 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 11,
+        "name": "北伐中原",
+        "year": 228,
+        "kingCount": 3,
+        "selectableCount": 3,
+        "ownedCities": 46,
+        "rulerNames": [
+          "曹睿",
+          "刘禅",
+          "孙权"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 11 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 11,
+        "restoredIndex": 11,
+        "restoredYear": 231,
+        "restoredMoney": 43221,
+        "kingCount": 3
+      }
+    },
+    {
+      "name": "Scenario 12 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 12,
+        "name": "英雄集结(架空)",
+        "year": 200,
+        "kingCount": 9,
+        "selectableCount": 9,
+        "ownedCities": 45,
+        "rulerNames": [
+          "曹操",
+          "刘备",
+          "孙坚",
+          "袁绍",
+          "吕布",
+          "董卓",
+          "马腾",
+          "刘璋",
+          "刘表"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 12 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 12,
+        "restoredIndex": 12,
+        "restoredYear": 203,
+        "restoredMoney": 43222,
+        "kingCount": 9
+      }
+    },
+    {
+      "name": "Scenario 13 full LoadMOD and valid playable world",
+      "passed": true,
+      "evidence": {
+        "index": 13,
+        "name": "孤城逆袭(架空)",
+        "year": 200,
+        "kingCount": 6,
+        "selectableCount": 6,
+        "ownedCities": 39,
+        "rulerNames": [
+          "刘备",
+          "曹操",
+          "袁绍",
+          "孙权",
+          "马腾",
+          "刘璋"
+        ]
+      }
+    },
+    {
+      "name": "Scenario 13 full save/load round trip",
+      "passed": true,
+      "evidence": {
+        "index": 13,
+        "restoredIndex": 13,
+        "restoredYear": 203,
+        "restoredMoney": 43223,
+        "kingCount": 6
+      }
+    },
+    {
+      "name": "Legacy save without Mod keeps the historical index-1 fallback",
+      "passed": true,
+      "evidence": {
+        "index": 1,
+        "kingCount": 18
+      }
+    },
+    {
+      "name": "Sima Shi remains absent in 222/228 and unlocks at the reviewed adult-service year",
+      "passed": true,
+      "evidence": {
+        "general": 17,
+        "rejectedYear": 236,
+        "firstYear": 237,
+        "finalYear": 255,
+        "city": 0,
+        "absentOpeningScenarios": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Sima Zhao remains absent in 222/228 and unlocks at the reviewed adult-service year",
+      "passed": true,
+      "evidence": {
+        "general": 16,
+        "rejectedYear": 237,
+        "firstYear": 238,
+        "finalYear": 265,
+        "city": 0,
+        "absentOpeningScenarios": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Sima Yan remains absent in 222/228 and unlocks at the reviewed adult-service year",
+      "passed": true,
+      "evidence": {
+        "general": 15,
+        "rejectedYear": 259,
+        "firstYear": 260,
+        "finalYear": 290,
+        "city": 10,
+        "absentOpeningScenarios": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Zhuge Liang appears in 207 and respects later regional and death boundaries",
+      "passed": true,
+      "evidence": {
+        "general": 145,
+        "firstYear": 207,
+        "lastYear": 234,
+        "initialCity": 22,
+        "lateCity": 37
+      }
+    },
+    {
+      "name": "Historical searching rejects the wrong city and a rival faction",
+      "passed": true,
+      "evidence": {
+        "rejectedCity": 18,
+        "rejectedFaction": 0,
+        "historicalFaction": 1
+      }
+    },
+    {
+      "name": "An active displaced historical faction still blocks rival recruitment",
+      "passed": true,
+      "evidence": {
+        "historicalFaction": 1,
+        "active": 1,
+        "ownedCities": 0,
+        "rivalCanRecruit": false
+      }
+    },
+    {
+      "name": "Eliminated historical factions allow only the eligible local occupier and year",
+      "passed": true,
+      "evidence": {
+        "historicalFaction": 1,
+        "active": 0,
+        "occupier": 0,
+        "permittedCity": 22,
+        "permittedYear": 207
+      }
+    },
+    {
+      "name": "Jiang Wei follows the explicit Wei-through-228 and Shu-from-229 stages",
+      "passed": true,
+      "evidence": {
+        "general": 51,
+        "firstYear": 220,
+        "weiThrough": 228,
+        "shuFrom": 229,
+        "finalYear": 264
+      }
+    },
+    {
+      "name": "Xun Yu becomes searchable in 191 and stops after 212",
+      "passed": true,
+      "evidence": {
+        "general": 69,
+        "city": 18,
+        "firstYear": 191,
+        "lastYear": 212
+      }
+    },
+    {
+      "name": "Search eligibility never transfers an employed general or releases a prisoner",
+      "passed": true,
+      "evidence": {
+        "employedUnchanged": true,
+        "prisonerUnchanged": true
+      }
+    },
+    {
+      "name": "The two fictional periods permit all 255 free agents without historical limits",
+      "passed": true,
+      "evidence": {
+        "scenarios": [
+          12,
+          13
+        ],
+        "availableGeneralsEach": 255,
+        "years": [
+          100,
+          1000
+        ]
+      }
+    },
+    {
+      "name": "All original historical periods apply the same recruitment bounds",
+      "passed": true,
+      "evidence": {
+        "scenarios": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "rejectedYears": [
+          206,
+          235
+        ]
+      }
+    },
+    {
+      "name": "Scenario 0 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 0,
+        "flags": {
+          "何进": 20,
+          "张角": 21,
+          "孙坚": 3,
+          "董卓": 4,
+          "丁原": 22,
+          "公孙瓒": 7,
+          "刘焉": 18,
+          "韩馥": 8,
+          "龚景": 23,
+          "乔玄": 24,
+          "陶谦": 12,
+          "孔岫": 13,
+          "刘繇": 15,
+          "严白虎": 16
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 1 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 1,
+        "flags": {
+          "曹操": 1,
+          "刘备": 2,
+          "孙坚": 3,
+          "董卓": 4,
+          "袁绍": 5,
+          "袁术": 6,
+          "公孙瓒": 7,
+          "韩馥": 8,
+          "孔融": 9,
+          "乔瑁": 10,
+          "马腾": 11,
+          "陶谦": 12,
+          "孔岫": 13,
+          "刘表": 14,
+          "刘繇": 15,
+          "严白虎": 16,
+          "王朗": 17,
+          "刘焉": 18
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 2 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 2,
+        "flags": {
+          "曹操": 1,
+          "刘备": 2,
+          "孙权": 25,
+          "袁绍": 5,
+          "马腾": 11,
+          "刘表": 14,
+          "刘璋": 26,
+          "张鲁": 27
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 3 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 3,
+        "flags": {
+          "曹操": 1,
+          "刘备": 2,
+          "孙权": 25,
+          "马腾": 11,
+          "孟获": 28,
+          "刘璋": 26,
+          "张鲁": 27,
+          "金旋": 29
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 4 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 4,
+        "flags": {
+          "曹操": 1,
+          "刘备": 2,
+          "孙权": 25,
+          "孟获": 28,
+          "彻里吉": 30
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 5 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 5,
+        "flags": {
+          "曹操": 1,
+          "袁绍": 5,
+          "刘备": 2,
+          "孙策": 3,
+          "马腾": 11,
+          "刘表": 14,
+          "刘璋": 26,
+          "张鲁": 27
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 6 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 6,
+        "flags": {
+          "曹操": 1,
+          "刘备": 2,
+          "孙权": 25,
+          "马腾": 11,
+          "刘表": 14,
+          "刘璋": 26,
+          "张鲁": 27,
+          "公孙康": 7
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 7 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 7,
+        "flags": {
+          "曹操": 1,
+          "刘备": 2,
+          "孙权": 25,
+          "马超": 11,
+          "刘璋": 26,
+          "张鲁": 27,
+          "公孙康": 7
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 8 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 8,
+        "flags": {
+          "曹操": 1,
+          "刘备": 2,
+          "孙权": 25,
+          "刘璋": 26,
+          "张鲁": 27,
+          "公孙康": 7
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 9 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 9,
+        "flags": {
+          "曹操": 1,
+          "刘备": 2,
+          "孙权": 25,
+          "公孙康": 7
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 10 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 10,
+        "flags": {
+          "曹丕": 1,
+          "刘备": 2,
+          "孙权": 25
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 11 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 11,
+        "flags": {
+          "曹睿": 130,
+          "刘禅": 167,
+          "孙权": 25
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 12 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 12,
+        "flags": {
+          "曹操": 1,
+          "刘备": 2,
+          "孙坚": 3,
+          "袁绍": 5,
+          "吕布": 59,
+          "董卓": 4,
+          "马腾": 11,
+          "刘璋": 26,
+          "刘表": 14
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "Scenario 13 distinct animated faction flags and only three troop types",
+      "passed": true,
+      "evidence": {
+        "scenario": 13,
+        "flags": {
+          "刘备": 2,
+          "曹操": 1,
+          "袁绍": 5,
+          "孙权": 25,
+          "马腾": 11,
+          "刘璋": 26
+        },
+        "generals": 255
+      }
+    },
+    {
+      "name": "All 50 promotion names are the skills granted, including both final skills",
+      "passed": true,
+      "evidence": {
+        "namesChecked": 50,
+        "scholarFinal": "天地无用",
+        "warriorFinal": "鬼哭神号"
+      }
+    },
+    {
+      "name": "Legacy save migrates seals, fielded troops and cavalry without repeating conversion",
+      "passed": true,
+      "evidence": {
+        "oldSoldiers": 23,
+        "oldCavalry": 17,
+        "newSoldiers": 40,
+        "capacity": 100,
+        "repeatedSaveLoad": "stable"
+      }
+    }
+  ]
+}

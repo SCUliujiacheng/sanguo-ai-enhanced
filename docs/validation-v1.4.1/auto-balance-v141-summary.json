@@ -1,0 +1,68 @@
+{
+  "sha256": "5701378b5d06476cb99881e21fde5892ae64ac8737e216f195ee7562fb217433",
+  "sourceDllSha256": "5701378b5d06476cb99881e21fde5892ae64ac8737e216f195ee7562fb217433",
+  "sourceHashMatches": true,
+  "configurations": 2070,
+  "seedsPerDirection": 1000,
+  "duels": 4140000,
+  "leftDraws": 9978.0,
+  "reverseDraws": 9828.0,
+  "totalDraws": 19806.0,
+  "drawRate": 0.004784057971014493,
+  "groupsWithDraws": 283,
+  "allDrawsBothAlive": true,
+  "winnerZeroHp": 0.0,
+  "nonmonotonic": 0,
+  "stateMetricDifferencesFromV14": 0,
+  "rowDifferencesFromV141Preliminary": 0,
+  "focused": [
+    {
+      "name": "high troop strong(100, 60) troops(100, 100) arms2/8 no skills",
+      "winRate": 0.475,
+      "lossRate": 0.525,
+      "drawRate": 0,
+      "decisiveWinRate": 0.475,
+      "reverseWinRate": 0.436,
+      "reverseLossRate": 0.564,
+      "reverseDrawRate": 0,
+      "avgOwnCasts": 0,
+      "avgEnemyCasts": 0
+    },
+    {
+      "name": "high troop strong(100, 60) troops(100, 100) arms2/8 same real skills",
+      "winRate": 0.874,
+      "lossRate": 0.126,
+      "drawRate": 0,
+      "decisiveWinRate": 0.874,
+      "reverseWinRate": 0.898,
+      "reverseLossRate": 0.102,
+      "reverseDrawRate": 0,
+      "avgOwnCasts": 3.174,
+      "avgEnemyCasts": 2.157
+    },
+    {
+      "name": "high troop strong(90, 60) troops(100, 100) arms2/8 no skills",
+      "winRate": 0.287,
+      "lossRate": 0.713,
+      "drawRate": 0,
+      "decisiveWinRate": 0.287,
+      "reverseWinRate": 0.26,
+      "reverseLossRate": 0.74,
+      "reverseDrawRate": 0,
+      "avgOwnCasts": 0,
+      "avgEnemyCasts": 0
+    },
+    {
+      "name": "high troop strong(90, 60) troops(100, 100) arms2/8 same real skills",
+      "winRate": 0.68,
+      "lossRate": 0.32,
+      "drawRate": 0,
+      "decisiveWinRate": 0.68,
+      "reverseWinRate": 0.671,
+      "reverseLossRate": 0.329,
+      "reverseDrawRate": 0,
+      "avgOwnCasts": 3.162,
+      "avgEnemyCasts": 2.329
+    }
+  ]
+}

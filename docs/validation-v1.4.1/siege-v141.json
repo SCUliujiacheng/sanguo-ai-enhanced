@@ -1,0 +1,374 @@
+{
+  "source": "<workspace>\\work\\auto-fix-v1.4.1\\Assembly-CSharp.dll",
+  "sha256": "5701378B5D06476CB99881E21FDE5892AE64AC8737E216F195EE7562FB217433",
+  "failures": 0,
+  "adaptations": [
+    "__TestPlayerMoney: executes original System.Void ExpeditionController::SetArmy() IL_0036 through IL_0072; AI Random.Range input fixed to 3000; Unity scene construction outside slice omitted.",
+    "__TestAiMoney: executes original System.Boolean StrategyController::SetArmyMove(System.Int32,System.Int32,System.Collections.Generic.List`1<System.Int32>) IL_0233 through IL_026b; AI Random.Range input fixed to 3000; Unity scene construction outside slice omitted.",
+    "Full SetArmyMove behavior runs with only scene setup StrategyController.SetArmy stubbed, GetCityPos returning zero, and Unity Random.Range fixed at 3000. Planning, validation, city/general/army mutation, and money bytecode are unchanged.",
+    "IntoTheCity retains its complete game-state behavior; terminal Unity get_gameObject/Destroy calls are replaced by null/no-op stubs because CoreCLR rejects Unity native calls at JIT time even when unreachable.",
+    "Siege scene boundaries only: GetRoute(int,int) yields one valid waypoint; GetCityIndex returns -1 because the harness has no rendered city transforms; GetSiegeRemainingDistance reads ArmyInfo.pos instead of Unity Transform.position; Unity Object equality becomes reference equality. Group planning, reserve validation, money transfer, route length, support filtering and arrival decisions remain actual injected IL.",
+    "AttackCity decision integration: retreat route assignment and player battle dialogue are replaced by call counters; terminal Destroy/get_gameObject are no-ops. Waiting, deadline checks, support rechecks and friendly-city entry remain actual injected IL.",
+    "Skill configuration keeps the actual MagicManager.GetMagicDataInfo/LoadConfig and XML parser unchanged. Only Unity Resources.Load/TextAsset.text become a null handle plus the original extracted MagicConfig XML, avoiding CoreCLR ECall rejection. Learned-skill fixture values and combat bytecode are unchanged."
+  ],
+  "tests": [
+    {
+      "name": "Conservative wave budget 6000",
+      "passed": true,
+      "evidence": {
+        "got": false,
+        "expected": false
+      }
+    },
+    {
+      "name": "Conservative wave budget 8000+8000",
+      "passed": true,
+      "evidence": {
+        "got": true,
+        "expected": true
+      }
+    },
+    {
+      "name": "Conservative wave budget 5000+5000",
+      "passed": true,
+      "evidence": {
+        "got": false,
+        "expected": false
+      }
+    },
+    {
+      "name": "Conservative wave budget 5500+5500+5500",
+      "passed": true,
+      "evidence": {
+        "got": true,
+        "expected": true
+      }
+    },
+    {
+      "name": "Conservative wave budget 15000+15000",
+      "passed": true,
+      "evidence": {
+        "got": false,
+        "expected": false
+      }
+    },
+    {
+      "name": "Real planner waves 9+9",
+      "passed": true,
+      "evidence": {
+        "waves": 2,
+        "expected": 2
+      }
+    },
+    {
+      "name": "Real planner waves 6+6+6",
+      "passed": true,
+      "evidence": {
+        "waves": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "Real planner waves 6+6",
+      "passed": true,
+      "evidence": {
+        "waves": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "Real planner waves 10",
+      "passed": true,
+      "evidence": {
+        "waves": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "Single unsupported weak wave still cannot dispatch",
+      "passed": true,
+      "evidence": {
+        "moved": false,
+        "armies": 0
+      }
+    },
+    {
+      "name": "Monthly faction planner selects coordinated waves",
+      "passed": true,
+      "evidence": {
+        "waves": 2
+      }
+    },
+    {
+      "name": "Different arrival routes must fit the dispatch window",
+      "passed": true,
+      "evidence": {
+        "plans": 0,
+        "armies": 0
+      }
+    },
+    {
+      "name": "Two-city siege dispatches both waves and conserves money and garrisons",
+      "passed": true,
+      "evidence": {
+        "counts": [
+          8,
+          8
+        ],
+        "reserves": [
+          1,
+          1
+        ],
+        "total": 30000
+      }
+    },
+    {
+      "name": "Group preflight rejects source lost",
+      "passed": true,
+      "evidence": {
+        "armies": 0
+      }
+    },
+    {
+      "name": "Group preflight rejects target friendly",
+      "passed": true,
+      "evidence": {
+        "armies": 0
+      }
+    },
+    {
+      "name": "Group preflight rejects target neutral",
+      "passed": true,
+      "evidence": {
+        "armies": 0
+      }
+    },
+    {
+      "name": "Group preflight rejects general captured",
+      "passed": true,
+      "evidence": {
+        "armies": 0
+      }
+    },
+    {
+      "name": "Group preflight rejects support missing",
+      "passed": true,
+      "evidence": {
+        "armies": 0
+      }
+    },
+    {
+      "name": "Group preflight rejects external threat",
+      "passed": true,
+      "evidence": {
+        "armies": 0
+      }
+    },
+    {
+      "name": "Actual arrival support: distance 20, state 0, target 0",
+      "passed": true,
+      "evidence": {
+        "decision": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "Actual arrival support: distance 100, state 0, target 0",
+      "passed": true,
+      "evidence": {
+        "decision": 2,
+        "expected": 2
+      }
+    },
+    {
+      "name": "Actual arrival support: distance 200, state 0, target 0",
+      "passed": true,
+      "evidence": {
+        "decision": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "Actual arrival support: distance 20, state 1, target 0",
+      "passed": true,
+      "evidence": {
+        "decision": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "Actual arrival support: distance 20, state 3, target 0",
+      "passed": true,
+      "evidence": {
+        "decision": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "Actual arrival support: distance 20, state 0, target 1",
+      "passed": true,
+      "evidence": {
+        "decision": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "Support intercepted or captured is removed from live budget",
+      "passed": true,
+      "evidence": {
+        "decision": 0
+      }
+    },
+    {
+      "name": "Retreating lead army cannot reuse nearby support to restart a siege",
+      "passed": true,
+      "evidence": {
+        "decision": 0
+      }
+    },
+    {
+      "name": "Duplicate generals cannot count as another wave",
+      "passed": true,
+      "evidence": {
+        "decision": 0
+      }
+    },
+    {
+      "name": "Captured target becomes friendly entry rather than another attack",
+      "passed": true,
+      "evidence": {
+        "decision": 1,
+        "guard": false
+      }
+    },
+    {
+      "name": "Half-size strong finishing force can exploit worn-down defense",
+      "passed": true,
+      "evidence": {
+        "finish": true,
+        "solo": false
+      }
+    },
+    {
+      "name": "Both CPU field and siege battle loops call the shared duel simulator",
+      "passed": true,
+      "evidence": {
+        "verified": [
+          "AttackArmy",
+          "AttackCity"
+        ]
+      }
+    },
+    {
+      "name": "CPU duel uses the shared troop counter: 8 beats 2",
+      "passed": true,
+      "evidence": {
+        "battlesPerDirection": 1000,
+        "counterOnLeft": {
+          "wins": 931,
+          "losses": 1,
+          "draws": 68,
+          "decisiveWinRate": 0.9989270386266095
+        },
+        "counterOnRight": {
+          "wins": 921,
+          "losses": 1,
+          "draws": 78,
+          "decisiveWinRate": 0.9989154013015185
+        },
+        "acceptance": "At least 100 decisive bouts; counter wins at least 75% of decisive bouts in both side orders. Draws are reported separately."
+      }
+    },
+    {
+      "name": "CPU duel uses the shared troop counter: 2 beats 1",
+      "passed": true,
+      "evidence": {
+        "battlesPerDirection": 1000,
+        "counterOnLeft": {
+          "wins": 783,
+          "losses": 4,
+          "draws": 213,
+          "decisiveWinRate": 0.9949174078780177
+        },
+        "counterOnRight": {
+          "wins": 778,
+          "losses": 5,
+          "draws": 217,
+          "decisiveWinRate": 0.9936143039591315
+        },
+        "acceptance": "At least 100 decisive bouts; counter wins at least 75% of decisive bouts in both side orders. Draws are reported separately."
+      }
+    },
+    {
+      "name": "CPU duel uses the shared troop counter: 1 beats 8",
+      "passed": true,
+      "evidence": {
+        "battlesPerDirection": 1000,
+        "counterOnLeft": {
+          "wins": 567,
+          "losses": 35,
+          "draws": 398,
+          "decisiveWinRate": 0.9418604651162791
+        },
+        "counterOnRight": {
+          "wins": 555,
+          "losses": 31,
+          "draws": 414,
+          "decisiveWinRate": 0.947098976109215
+        },
+        "acceptance": "At least 100 decisive bouts; counter wins at least 75% of decisive bouts in both side orders. Draws are reported separately."
+      }
+    },
+    {
+      "name": "CPU duel imports learned skills and writes actual MP and casualties",
+      "passed": true,
+      "evidence": {
+        "same": true,
+        "winner": 1,
+        "mana": 50,
+        "casts": 5
+      }
+    },
+    {
+      "name": "Zero extra damage preserves winner resources without creating cavalry",
+      "passed": true,
+      "evidence": {
+        "health": 73,
+        "mana": 19,
+        "knights": 0,
+        "soldiers": 12,
+        "experience": 676
+      }
+    },
+    {
+      "name": "Real AttackCity waits then handles support arrives",
+      "passed": true,
+      "evidence": {
+        "initialWait": true,
+        "finalWait": false,
+        "retreats": 0,
+        "battles": 1
+      }
+    },
+    {
+      "name": "Real AttackCity waits then handles support retreats",
+      "passed": true,
+      "evidence": {
+        "initialWait": true,
+        "finalWait": false,
+        "retreats": 1,
+        "battles": 0
+      }
+    },
+    {
+      "name": "Real AttackCity waits then handles timeout",
+      "passed": true,
+      "evidence": {
+        "initialWait": true,
+        "finalWait": false,
+        "retreats": 1,
+        "battles": 0
+      }
+    }
+  ]
+}

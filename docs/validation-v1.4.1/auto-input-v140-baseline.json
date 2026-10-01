@@ -1,0 +1,106 @@
+{
+  "source": "<workspace>\\work\\initiative-v1.4.0\\Assembly-CSharp.dll",
+  "sha256": "1f2eb10b7c5db32432f4588efd1148e2bb750dba8485c4322aaaa660ec6cdc3d",
+  "failures": 8,
+  "adaptations": [
+    "Actual supplied DLL's BuildAutoBattleUnit, StrategicBattleRules.BuildUnit, MagicManager.LoadConfig XML parsing, skill lookup and Simulate bytecode run. Only Unity Resources.Load and TextAsset.text are replaced by a null resource handle and the extracted original MagicConfig XML. No Android scene or native renderer is claimed.",
+    "For actual automatic duel writeback tests, Unity integer Random returns its lower bound; otherwise the actual ResolveAutoDuel/ApplyAutoBattleSimulation/WarResult and Misc experience bytecode run.",
+    "Whole-battle tests retain OnAutoAllConfirmed, OnReturnMain, RefreshAfterAutoSingle, OnRightGeneralSelected, OnSubMenu and draw dialogue state. Rendering setters and dialogue drawing are no-ops; button enablement is stored on a test-only Button field. OnWarOver is an observation counter. Confirmation SetActive/LogError are no-ops; Unity null equality uses reference equality. No Android touch dispatch is simulated."
+  ],
+  "metrics": {
+    "cold_vs_warm": {
+      "coldSkills": 0,
+      "warmSkills": 4,
+      "coldWinner": 0,
+      "warmWinner": 1,
+      "coldCasts": 0,
+      "warmCasts": 2,
+      "coldHP": 0,
+      "warmHP": 100
+    },
+    "threeGeneralFullAuto": {
+      "coldWinner": 0,
+      "warmWinner": 1
+    },
+    "timeoutFixture": {
+      "winner": 1,
+      "leftHealth": 144,
+      "rightHealth": 142,
+      "leftTroops": 0,
+      "rightTroops": 0,
+      "leftMana": 120,
+      "rightMana": 60,
+      "leftCasts": 1,
+      "rightCasts": 3
+    },
+    "timeoutBatch": {
+      "warResult": 1,
+      "leftFailed": false,
+      "rightFailed": true,
+      "leftHealth": 144,
+      "rightHealth": 2,
+      "onWarOver": 1,
+      "onReturnMain": 0
+    },
+    "drawSurvivingTroopFixture": {
+      "leftSoldier": 0,
+      "rightSoldier": 179,
+      "leftHealth": 95,
+      "rightHealth": 150
+    }
+  },
+  "tests": [
+    {
+      "name": "cold launch player auto input loads all four equipped skills",
+      "passed": false,
+      "error": "System.InvalidOperationException: Cold player input contains 0 skills, expected 4.\r\n   at Audit.Assert(Boolean v, String s) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 101\r\n   at Audit.<Run>b__35_0() in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 201\r\n   at Audit.Test(String n, Action a) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 102"
+    },
+    {
+      "name": "cold launch CPU auto input loads all four equipped skills",
+      "passed": false,
+      "error": "System.InvalidOperationException: Cold CPU input contains 0 skills, expected 4.\r\n   at Audit.Assert(Boolean v, String s) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 101\r\n   at Audit.<Run>b__35_1() in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 202\r\n   at Audit.Test(String n, Action a) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 102"
+    },
+    {
+      "name": "manual battle configuration warmup must not change auto duel result",
+      "passed": false,
+      "error": "System.InvalidOperationException: Same inputs and seed change after entering a manual war scene.\r\n   at Audit.Assert(Boolean v, String s) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 101\r\n   at Audit.<Run>b__35_2() in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 208\r\n   at Audit.Test(String n, Action a) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 102"
+    },
+    {
+      "name": "auto input reads displayed equipped attributes and current resources",
+      "passed": true
+    },
+    {
+      "name": "replacement skips failed and zero HP generals and selects actual counter",
+      "passed": true
+    },
+    {
+      "name": "actual auto duel winner and loser are written to correct side without healing winner",
+      "passed": true
+    },
+    {
+      "name": "actual full automatic three-general team cannot depend on prior manual battle warmup",
+      "passed": false,
+      "error": "System.InvalidOperationException: Three-general whole battle reverses solely due to the manual-war skill-data warmup.\r\n   at Audit.Assert(Boolean v, String s) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 101\r\n   at Audit.<Run>b__35_6() in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 239\r\n   at Audit.Test(String n, Action a) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 102"
+    },
+    {
+      "name": "99-second timeout with both healing generals alive returns draw instead of forced winner",
+      "passed": false,
+      "error": "System.InvalidOperationException: Living timeout is forcibly declared winner=1 instead of draw=2.\r\n   at Audit.Assert(Boolean v, String s) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 101\r\n   at Audit.<RunTimeout>b__34_0() in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 173\r\n   at Audit.Test(String n, Action a) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 102"
+    },
+    {
+      "name": "actual draw writeback preserves living generals and gives no win/loss rewards",
+      "passed": false,
+      "error": "System.InvalidOperationException: Right draw healthCur changed from simulated 142 to 2\r\n   at Audit.Assert(Boolean v, String s) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 101\r\n   at Audit.UnchangedDraw(Object left, Object right, Object result, Boolean[] leftFailed, Boolean[] rightFailed) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 163\r\n   at Audit.<RunTimeout>b__34_1() in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 177\r\n   at Audit.Test(String n, Action a) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 102"
+    },
+    {
+      "name": "whole automatic batch stops at first draw and returns to selection without repeated attrition",
+      "passed": false,
+      "error": "System.InvalidOperationException: Batch treated timeout as a defeat.\r\n   at Audit.Assert(Boolean v, String s) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 101\r\n   at Audit.<RunTimeout>b__34_2() in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 182\r\n   at Audit.Test(String n, Action a) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 102"
+    },
+    {
+      "name": "draw preserves surviving troop counts in an edited legacy high-capacity army",
+      "passed": false,
+      "error": "System.InvalidOperationException: Right draw healthCur changed from simulated 150 to 2\r\n   at Audit.Assert(Boolean v, String s) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 101\r\n   at Audit.UnchangedDraw(Object left, Object right, Object result, Boolean[] leftFailed, Boolean[] rightFailed) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 163\r\n   at Audit.<RunTimeout>b__34_3() in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 195\r\n   at Audit.Test(String n, Action a) in <workspace>\\tools\\AutoInputAudit\\Program.cs:line 102"
+    }
+  ]
+}

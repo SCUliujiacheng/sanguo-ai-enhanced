@@ -1,0 +1,104 @@
+{
+  "source": "<workspace>\\work\\auto-fix-v1.4.1\\Assembly-CSharp.dll",
+  "sha256": "5701378b5d06476cb99881e21fde5892ae64ac8737e216f195ee7562fb217433",
+  "failures": 0,
+  "adaptations": [
+    "Actual supplied DLL's BuildAutoBattleUnit, StrategicBattleRules.BuildUnit, MagicManager.LoadConfig XML parsing, skill lookup and Simulate bytecode run. Only Unity Resources.Load and TextAsset.text are replaced by a null resource handle and the extracted original MagicConfig XML. No Android scene or native renderer is claimed.",
+    "For actual automatic duel writeback tests, Unity integer Random returns its lower bound; otherwise the actual ResolveAutoDuel/ApplyAutoBattleSimulation/WarResult and Misc experience bytecode run.",
+    "Whole-battle tests retain OnAutoAllConfirmed, OnReturnMain, RefreshAfterAutoSingle, OnRightGeneralSelected, OnSubMenu and draw dialogue state. Rendering setters and dialogue drawing are no-ops; button enablement is stored on a test-only Button field. OnWarOver is an observation counter. Confirmation SetActive/LogError are no-ops; Unity null equality uses reference equality. No Android touch dispatch is simulated."
+  ],
+  "metrics": {
+    "cold_vs_warm": {
+      "coldSkills": 4,
+      "warmSkills": 4,
+      "coldWinner": 1,
+      "warmWinner": 1,
+      "coldCasts": 2,
+      "warmCasts": 2,
+      "coldHP": 100,
+      "warmHP": 100
+    },
+    "threeGeneralFullAuto": {
+      "coldWinner": 1,
+      "warmWinner": 1
+    },
+    "timeoutFixture": {
+      "winner": 2,
+      "leftHealth": 144,
+      "rightHealth": 142,
+      "leftTroops": 0,
+      "rightTroops": 0,
+      "leftMana": 120,
+      "rightMana": 60,
+      "leftCasts": 1,
+      "rightCasts": 3
+    },
+    "timeoutBatch": {
+      "warResult": 2,
+      "leftFailed": false,
+      "rightFailed": false,
+      "leftHealth": 144,
+      "rightHealth": 142,
+      "onWarOver": 0,
+      "onReturnMain": 1
+    },
+    "drawUiRecovery": {
+      "state": 0,
+      "autoBattleRunning": false,
+      "autoSinglePendingRefresh": false,
+      "buttonsEnabled": true
+    },
+    "drawSurvivingTroopFixture": {
+      "leftSoldier": 0,
+      "rightSoldier": 179,
+      "leftHealth": 95,
+      "rightHealth": 150
+    }
+  },
+  "tests": [
+    {
+      "name": "cold launch player auto input loads all four equipped skills",
+      "passed": true
+    },
+    {
+      "name": "cold launch CPU auto input loads all four equipped skills",
+      "passed": true
+    },
+    {
+      "name": "manual battle configuration warmup must not change auto duel result",
+      "passed": true
+    },
+    {
+      "name": "auto input reads displayed equipped attributes and current resources",
+      "passed": true
+    },
+    {
+      "name": "replacement skips failed and zero HP generals and selects actual counter",
+      "passed": true
+    },
+    {
+      "name": "actual auto duel winner and loser are written to correct side without healing winner",
+      "passed": true
+    },
+    {
+      "name": "actual full automatic three-general team cannot depend on prior manual battle warmup",
+      "passed": true
+    },
+    {
+      "name": "99-second timeout with both healing generals alive returns draw instead of forced winner",
+      "passed": true
+    },
+    {
+      "name": "actual draw writeback preserves living generals and gives no win/loss rewards",
+      "passed": true
+    },
+    {
+      "name": "whole automatic batch stops at first draw and returns to selection without repeated attrition",
+      "passed": true
+    },
+    {
+      "name": "draw preserves surviving troop counts in an edited legacy high-capacity army",
+      "passed": true
+    }
+  ]
+}

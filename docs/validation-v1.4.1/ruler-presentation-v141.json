@@ -1,0 +1,966 @@
+{
+  "source": "<workspace>\\work\\auto-fix-v1.4.1\\Assembly-CSharp.dll",
+  "sha256": "5701378B5D06476CB99881E21FDE5892AE64AC8737E216F195EE7562FB217433",
+  "failures": 0,
+  "adaptations": "Actual DLL identity/catalog methods and resources run; only unused original Unity resource access is stubbed. Hooks are checked on the final IL. PNG and real Head029 asset are separately inspected; this is not Android scene rendering.",
+  "tests": [
+    {
+      "name": "City and marching-army renderers install the real surname animation",
+      "passed": true,
+      "evidence": {
+        "city": "FactionFlagRules.Apply",
+        "army": "FactionFlagRules.Apply",
+        "registration": "exSpriteAnimation.AddAnimation"
+      }
+    },
+    {
+      "name": "Internal-affairs portrait uses actual ruler and refreshes on entry",
+      "passed": true,
+      "evidence": {
+        "binding": "KingInfo.generalIdx",
+        "portrait": "Head/HeadNNN",
+        "entryRefresh": true
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 0",
+      "passed": true,
+      "evidence": {
+        "scenario": 0,
+        "checkedRulers": 14,
+        "entries": [
+          {
+            "k": 0,
+            "g": 207,
+            "name": "何进",
+            "head": "Head/Head208",
+            "animation": "Flag20"
+          },
+          {
+            "k": 1,
+            "g": 210,
+            "name": "张角",
+            "head": "Head/Head211",
+            "animation": "Flag21"
+          },
+          {
+            "k": 2,
+            "g": 59,
+            "name": "孙坚",
+            "head": "Head/Head060",
+            "animation": "Flag3"
+          },
+          {
+            "k": 3,
+            "g": 121,
+            "name": "董卓",
+            "head": "Head/Head122",
+            "animation": "Flag4"
+          },
+          {
+            "k": 4,
+            "g": 209,
+            "name": "丁原",
+            "head": "Head/Head210",
+            "animation": "Flag22"
+          },
+          {
+            "k": 5,
+            "g": 3,
+            "name": "公孙瓒",
+            "head": "Head/Head004",
+            "animation": "Flag7"
+          },
+          {
+            "k": 6,
+            "g": 133,
+            "name": "刘焉",
+            "head": "Head/Head134",
+            "animation": "Flag18"
+          },
+          {
+            "k": 7,
+            "g": 156,
+            "name": "韩馥",
+            "head": "Head/Head157",
+            "animation": "Flag8"
+          },
+          {
+            "k": 8,
+            "g": 220,
+            "name": "龚景",
+            "head": "Head/Head221",
+            "animation": "Flag23"
+          },
+          {
+            "k": 9,
+            "g": 188,
+            "name": "乔玄",
+            "head": "Head/Head189",
+            "animation": "Flag24"
+          },
+          {
+            "k": 10,
+            "g": 110,
+            "name": "陶谦",
+            "head": "Head/Head111",
+            "animation": "Flag12"
+          },
+          {
+            "k": 11,
+            "g": 6,
+            "name": "孔岫",
+            "head": "Head/Head007",
+            "animation": "Flag13"
+          },
+          {
+            "k": 12,
+            "g": 137,
+            "name": "刘繇",
+            "head": "Head/Head138",
+            "animation": "Flag15"
+          },
+          {
+            "k": 13,
+            "g": 167,
+            "name": "严白虎",
+            "head": "Head/Head168",
+            "animation": "Flag16"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 1",
+      "passed": true,
+      "evidence": {
+        "scenario": 1,
+        "checkedRulers": 18,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 59,
+            "name": "孙坚",
+            "head": "Head/Head060",
+            "animation": "Flag3"
+          },
+          {
+            "k": 3,
+            "g": 121,
+            "name": "董卓",
+            "head": "Head/Head122",
+            "animation": "Flag4"
+          },
+          {
+            "k": 4,
+            "g": 71,
+            "name": "袁绍",
+            "head": "Head/Head072",
+            "animation": "Flag5"
+          },
+          {
+            "k": 5,
+            "g": 72,
+            "name": "袁术",
+            "head": "Head/Head073",
+            "animation": "Flag6"
+          },
+          {
+            "k": 6,
+            "g": 3,
+            "name": "公孙瓒",
+            "head": "Head/Head004",
+            "animation": "Flag7"
+          },
+          {
+            "k": 7,
+            "g": 156,
+            "name": "韩馥",
+            "head": "Head/Head157",
+            "animation": "Flag8"
+          },
+          {
+            "k": 8,
+            "g": 7,
+            "name": "孔融",
+            "head": "Head/Head008",
+            "animation": "Flag9"
+          },
+          {
+            "k": 9,
+            "g": 189,
+            "name": "乔瑁",
+            "head": "Head/Head190",
+            "animation": "Flag10"
+          },
+          {
+            "k": 10,
+            "g": 79,
+            "name": "马腾",
+            "head": "Head/Head080",
+            "animation": "Flag11"
+          },
+          {
+            "k": 11,
+            "g": 110,
+            "name": "陶谦",
+            "head": "Head/Head111",
+            "animation": "Flag12"
+          },
+          {
+            "k": 12,
+            "g": 6,
+            "name": "孔岫",
+            "head": "Head/Head007",
+            "animation": "Flag13"
+          },
+          {
+            "k": 13,
+            "g": 132,
+            "name": "刘表",
+            "head": "Head/Head133",
+            "animation": "Flag14"
+          },
+          {
+            "k": 14,
+            "g": 137,
+            "name": "刘繇",
+            "head": "Head/Head138",
+            "animation": "Flag15"
+          },
+          {
+            "k": 15,
+            "g": 167,
+            "name": "严白虎",
+            "head": "Head/Head168",
+            "animation": "Flag16"
+          },
+          {
+            "k": 16,
+            "g": 172,
+            "name": "王朗",
+            "head": "Head/Head173",
+            "animation": "Flag17"
+          },
+          {
+            "k": 17,
+            "g": 133,
+            "name": "刘焉",
+            "head": "Head/Head134",
+            "animation": "Flag18"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 2",
+      "passed": true,
+      "evidence": {
+        "scenario": 2,
+        "checkedRulers": 8,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          },
+          {
+            "k": 3,
+            "g": 71,
+            "name": "袁绍",
+            "head": "Head/Head072",
+            "animation": "Flag5"
+          },
+          {
+            "k": 4,
+            "g": 79,
+            "name": "马腾",
+            "head": "Head/Head080",
+            "animation": "Flag11"
+          },
+          {
+            "k": 5,
+            "g": 132,
+            "name": "刘表",
+            "head": "Head/Head133",
+            "animation": "Flag14"
+          },
+          {
+            "k": 6,
+            "g": 196,
+            "name": "刘璋",
+            "head": "Head/Head197",
+            "animation": "Flag26"
+          },
+          {
+            "k": 7,
+            "g": 90,
+            "name": "张鲁",
+            "head": "Head/Head091",
+            "animation": "Flag27"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 3",
+      "passed": true,
+      "evidence": {
+        "scenario": 3,
+        "checkedRulers": 8,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          },
+          {
+            "k": 3,
+            "g": 79,
+            "name": "马腾",
+            "head": "Head/Head080",
+            "animation": "Flag11"
+          },
+          {
+            "k": 4,
+            "g": 46,
+            "name": "孟获",
+            "head": "Head/Head047",
+            "animation": "Flag28"
+          },
+          {
+            "k": 5,
+            "g": 196,
+            "name": "刘璋",
+            "head": "Head/Head197",
+            "animation": "Flag26"
+          },
+          {
+            "k": 6,
+            "g": 90,
+            "name": "张鲁",
+            "head": "Head/Head091",
+            "animation": "Flag27"
+          },
+          {
+            "k": 7,
+            "g": 236,
+            "name": "金旋",
+            "head": "Head/Head237",
+            "animation": "Flag29"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 4",
+      "passed": true,
+      "evidence": {
+        "scenario": 4,
+        "checkedRulers": 5,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          },
+          {
+            "k": 3,
+            "g": 46,
+            "name": "孟获",
+            "head": "Head/Head047",
+            "animation": "Flag28"
+          },
+          {
+            "k": 4,
+            "g": 228,
+            "name": "彻里吉",
+            "head": "Head/Head229",
+            "animation": "Flag30"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 5",
+      "passed": true,
+      "evidence": {
+        "scenario": 5,
+        "checkedRulers": 8,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 71,
+            "name": "袁绍",
+            "head": "Head/Head072",
+            "animation": "Flag5"
+          },
+          {
+            "k": 2,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 3,
+            "g": 60,
+            "name": "孙策",
+            "head": "Head/Head061",
+            "animation": "Flag3"
+          },
+          {
+            "k": 4,
+            "g": 79,
+            "name": "马腾",
+            "head": "Head/Head080",
+            "animation": "Flag11"
+          },
+          {
+            "k": 5,
+            "g": 132,
+            "name": "刘表",
+            "head": "Head/Head133",
+            "animation": "Flag14"
+          },
+          {
+            "k": 6,
+            "g": 196,
+            "name": "刘璋",
+            "head": "Head/Head197",
+            "animation": "Flag26"
+          },
+          {
+            "k": 7,
+            "g": 90,
+            "name": "张鲁",
+            "head": "Head/Head091",
+            "animation": "Flag27"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 6",
+      "passed": true,
+      "evidence": {
+        "scenario": 6,
+        "checkedRulers": 8,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          },
+          {
+            "k": 3,
+            "g": 79,
+            "name": "马腾",
+            "head": "Head/Head080",
+            "animation": "Flag11"
+          },
+          {
+            "k": 4,
+            "g": 132,
+            "name": "刘表",
+            "head": "Head/Head133",
+            "animation": "Flag14"
+          },
+          {
+            "k": 5,
+            "g": 196,
+            "name": "刘璋",
+            "head": "Head/Head197",
+            "animation": "Flag26"
+          },
+          {
+            "k": 6,
+            "g": 90,
+            "name": "张鲁",
+            "head": "Head/Head091",
+            "animation": "Flag27"
+          },
+          {
+            "k": 7,
+            "g": 237,
+            "name": "公孙康",
+            "head": "Head/Head238",
+            "animation": "Flag7"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 7",
+      "passed": true,
+      "evidence": {
+        "scenario": 7,
+        "checkedRulers": 7,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          },
+          {
+            "k": 3,
+            "g": 78,
+            "name": "马超",
+            "head": "Head/Head079",
+            "animation": "Flag11"
+          },
+          {
+            "k": 4,
+            "g": 196,
+            "name": "刘璋",
+            "head": "Head/Head197",
+            "animation": "Flag26"
+          },
+          {
+            "k": 5,
+            "g": 90,
+            "name": "张鲁",
+            "head": "Head/Head091",
+            "animation": "Flag27"
+          },
+          {
+            "k": 6,
+            "g": 237,
+            "name": "公孙康",
+            "head": "Head/Head238",
+            "animation": "Flag7"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 8",
+      "passed": true,
+      "evidence": {
+        "scenario": 8,
+        "checkedRulers": 6,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          },
+          {
+            "k": 3,
+            "g": 196,
+            "name": "刘璋",
+            "head": "Head/Head197",
+            "animation": "Flag26"
+          },
+          {
+            "k": 4,
+            "g": 90,
+            "name": "张鲁",
+            "head": "Head/Head091",
+            "animation": "Flag27"
+          },
+          {
+            "k": 5,
+            "g": 237,
+            "name": "公孙康",
+            "head": "Head/Head238",
+            "animation": "Flag7"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 9",
+      "passed": true,
+      "evidence": {
+        "scenario": 9,
+        "checkedRulers": 4,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          },
+          {
+            "k": 3,
+            "g": 237,
+            "name": "公孙康",
+            "head": "Head/Head238",
+            "animation": "Flag7"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 10",
+      "passed": true,
+      "evidence": {
+        "scenario": 10,
+        "checkedRulers": 3,
+        "entries": [
+          {
+            "k": 0,
+            "g": 204,
+            "name": "曹丕",
+            "head": "Head/Head205",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 11",
+      "passed": true,
+      "evidence": {
+        "scenario": 11,
+        "checkedRulers": 3,
+        "entries": [
+          {
+            "k": 0,
+            "g": 99,
+            "name": "曹睿",
+            "head": "Head/Head100",
+            "animation": "RulerFlag99"
+          },
+          {
+            "k": 1,
+            "g": 136,
+            "name": "刘禅",
+            "head": "Head/Head137",
+            "animation": "RulerFlag136"
+          },
+          {
+            "k": 2,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 12",
+      "passed": true,
+      "evidence": {
+        "scenario": 12,
+        "checkedRulers": 9,
+        "entries": [
+          {
+            "k": 0,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 1,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 2,
+            "g": 59,
+            "name": "孙坚",
+            "head": "Head/Head060",
+            "animation": "Flag3"
+          },
+          {
+            "k": 3,
+            "g": 71,
+            "name": "袁绍",
+            "head": "Head/Head072",
+            "animation": "Flag5"
+          },
+          {
+            "k": 4,
+            "g": 28,
+            "name": "吕布",
+            "head": "Head/Head029",
+            "animation": "RulerFlag28"
+          },
+          {
+            "k": 5,
+            "g": 121,
+            "name": "董卓",
+            "head": "Head/Head122",
+            "animation": "Flag4"
+          },
+          {
+            "k": 6,
+            "g": 79,
+            "name": "马腾",
+            "head": "Head/Head080",
+            "animation": "Flag11"
+          },
+          {
+            "k": 7,
+            "g": 196,
+            "name": "刘璋",
+            "head": "Head/Head197",
+            "animation": "Flag26"
+          },
+          {
+            "k": 8,
+            "g": 132,
+            "name": "刘表",
+            "head": "Head/Head133",
+            "animation": "Flag14"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruler portraits and surname flags match actual opening 13",
+      "passed": true,
+      "evidence": {
+        "scenario": 13,
+        "checkedRulers": 6,
+        "entries": [
+          {
+            "k": 0,
+            "g": 134,
+            "name": "刘备",
+            "head": "Head/Head135",
+            "animation": "Flag2"
+          },
+          {
+            "k": 1,
+            "g": 98,
+            "name": "曹操",
+            "head": "Head/Head099",
+            "animation": "Flag1"
+          },
+          {
+            "k": 2,
+            "g": 71,
+            "name": "袁绍",
+            "head": "Head/Head072",
+            "animation": "Flag5"
+          },
+          {
+            "k": 3,
+            "g": 61,
+            "name": "孙权",
+            "head": "Head/Head062",
+            "animation": "Flag25"
+          },
+          {
+            "k": 4,
+            "g": 79,
+            "name": "马腾",
+            "head": "Head/Head080",
+            "animation": "Flag11"
+          },
+          {
+            "k": 5,
+            "g": 196,
+            "name": "刘璋",
+            "head": "Head/Head197",
+            "animation": "Flag26"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hero gathering Lu Bu has his real portrait and Lu surname, never bandit",
+      "passed": true,
+      "evidence": {
+        "king": 4,
+        "general": 28,
+        "head": "Head/Head029",
+        "flag": "RulerFlag28",
+        "surname": "吕",
+        "frames": 4
+      }
+    },
+    {
+      "name": "A different current ruler replaces both name, portrait and surname",
+      "passed": true,
+      "evidence": {
+        "name": "吕布",
+        "head": "Head/Head029",
+        "flag": "RulerFlag28"
+      }
+    },
+    {
+      "name": "Atlas includes four drawable and bounded frames for every possible ruler",
+      "passed": true,
+      "evidence": {
+        "rulers": 255,
+        "frames": 1020,
+        "texture": "1024x1024",
+        "filter": "Point",
+        "imageSha256": "FFF11B443A059613DBE8C306B6C13C7D1C1CC16FACA8FC00E4FE0C5F75A945ED",
+        "inspectedImageMatchesFinalDll": true
+      }
+    },
+    {
+      "name": "Actual atlas element builder preserves original geometry and correct bottom-origin UVs",
+      "passed": true,
+      "evidence": {
+        "executed": "FactionFlagArt.BuildElements",
+        "checkedFrames": 1020,
+        "originalLogicalWidths": [
+          36,
+          36,
+          38,
+          36
+        ],
+        "originalHeight": 36,
+        "trim": "[18/19,0,18/19,19]",
+        "uvOrigin": "bottom left",
+        "preservesFootprint": true
+      }
+    }
+  ]
+}

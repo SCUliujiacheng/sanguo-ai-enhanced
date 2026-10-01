@@ -1,0 +1,82 @@
+{
+  "source": "<workspace>\\work\\auto-fix-v1.4.1\\Assembly-CSharp.dll",
+  "sha256": "5701378B5D06476CB99881E21FDE5892AE64AC8737E216F195EE7562FB217433",
+  "failures": 0,
+  "adaptations": [
+    "For AI item use/search and experience gain only, Unity Random.Range(int,int) is replaced in the in-memory test copy by a test-supplied sequence. UOController Unity Debug.LogError output is suppressed so transaction rollback can run without native Unity logging. All troop rules, inventory effects, selection constraints, experience logic, optimizer and transaction IL come from the supplied assembly. UI/scene rendering is not simulated."
+  ],
+  "tests": [
+    {
+      "name": "All eleven legacy families have deterministic three-family mappings",
+      "passed": true
+    },
+    {
+      "name": "Every old learned-troop mask migrates idempotently without fourth families",
+      "passed": true
+    },
+    {
+      "name": "Current family and learned family remain consistent for all legacy combinations",
+      "passed": true
+    },
+    {
+      "name": "Inventory migrates all eleven symbols without deleting items or altering equipment/formations",
+      "passed": true
+    },
+    {
+      "name": "Learning a duplicate symbol cannot overflow the learned mask or add a fourth family",
+      "passed": true
+    },
+    {
+      "name": "Troop counters obey exactly the requested nine-matchup cycle",
+      "passed": true
+    },
+    {
+      "name": "Search choices cover only archer spear blade and model indices remain 3 1 0",
+      "passed": true
+    },
+    {
+      "name": "World conversion includes marching/captured generals and exactly preserves troops capacity money",
+      "passed": true
+    },
+    {
+      "name": "Twenty-plus level gains keep all current troops and retain unusual legacy capacity",
+      "passed": true
+    },
+    {
+      "name": "Automatic item assignment recognizes merged symbols and leaves duplicate families unused",
+      "passed": true
+    },
+    {
+      "name": "Automatic assignment does not relearn a ranged family already known under an old mask",
+      "passed": true
+    },
+    {
+      "name": "Actual equipment transaction consumes assigned symbols and conserves all leftovers",
+      "passed": true
+    },
+    {
+      "name": "Actual equipment transaction rolls back earlier removals when a later symbol is missing",
+      "passed": true
+    },
+    {
+      "name": "AI actually consumes only newly learnable symbols and preserves duplicate inventories",
+      "passed": true
+    },
+    {
+      "name": "AI search path generates each of the three symbols and no retired symbols",
+      "passed": true
+    },
+    {
+      "name": "Real battle damage and visible selection paths call the shared troop rules",
+      "passed": true
+    },
+    {
+      "name": "AI historical search now routes through the same eligibility gate as player search",
+      "passed": true
+    },
+    {
+      "name": "Final assembly has migration hooks and all three search routes use the new symbol pool",
+      "passed": true
+    }
+  ]
+}

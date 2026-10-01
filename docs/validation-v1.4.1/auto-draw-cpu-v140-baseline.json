@@ -1,0 +1,165 @@
+{
+  "source": "<workspace>\\work\\initiative-v1.4.0\\Assembly-CSharp.dll",
+  "sha256": "1F2EB10B7C5DB32432F4588EFD1148E2BB750DBA8485C4322AAAA660EC6CDC3D",
+  "failures": 12,
+  "count": 12,
+  "scope": "Actual compiled CPU AttackArmy/AttackCity and settlement IL. Duel result contract supplied at ResolveDuel boundary; Unity rendering/route and level-up native boundaries stubbed. No Android renderer.",
+  "tests": [
+    {
+      "name": "Field first duel draw preserves resources, ownership and money",
+      "passed": false,
+      "evidence": {
+        "same": false,
+        "money": false,
+        "targetKing": 1,
+        "attackerHP": 2,
+        "defenderHP": 140
+      }
+    },
+    {
+      "name": "City first duel draw preserves resources, ownership and money",
+      "passed": false,
+      "evidence": {
+        "same": false,
+        "money": false,
+        "targetKing": 1,
+        "attackerHP": 2,
+        "defenderHP": 140
+      }
+    },
+    {
+      "name": "Field prior genuine defender victory then draw settles only captured loser",
+      "passed": false,
+      "evidence": {
+        "lists": true,
+        "survivors": false,
+        "money": false,
+        "captured": 0,
+        "owner": 1,
+        "attackerGenerals": [],
+        "defenderGenerals": [
+          2,
+          3
+        ],
+        "capturedCity": -1
+      }
+    },
+    {
+      "name": "Field prior genuine attacker victory then draw settles only captured loser",
+      "passed": false,
+      "evidence": {
+        "lists": false,
+        "survivors": false,
+        "money": false,
+        "captured": 2,
+        "owner": 0,
+        "attackerGenerals": [],
+        "defenderGenerals": [
+          2,
+          3
+        ],
+        "capturedCity": -1
+      }
+    },
+    {
+      "name": "City prior genuine defender victory then draw settles only captured loser",
+      "passed": false,
+      "evidence": {
+        "lists": true,
+        "survivors": false,
+        "money": false,
+        "captured": 0,
+        "owner": 1,
+        "attackerGenerals": [],
+        "defenderGenerals": [
+          2,
+          3
+        ],
+        "capturedCity": 1
+      }
+    },
+    {
+      "name": "City prior genuine attacker victory then draw settles only captured loser",
+      "passed": false,
+      "evidence": {
+        "lists": false,
+        "survivors": false,
+        "money": false,
+        "captured": 2,
+        "owner": 0,
+        "attackerGenerals": [],
+        "defenderGenerals": [
+          2,
+          3
+        ],
+        "capturedCity": -1
+      }
+    },
+    {
+      "name": "Field draw retreats surviving armies to friendly sources",
+      "passed": false,
+      "evidence": {
+        "attacker": false,
+        "defender": false,
+        "armies": 1
+      }
+    },
+    {
+      "name": "City draw retreats surviving armies to friendly sources",
+      "passed": false,
+      "evidence": {
+        "attacker": false,
+        "defender": true,
+        "armies": 1
+      }
+    },
+    {
+      "name": "Field pending ruler capture changes fallen faction to bandits without awarding conquest",
+      "passed": false,
+      "evidence": {
+        "fallen": false,
+        "captured": false,
+        "updates": 0,
+        "targetKing": 1,
+        "prefect": 2
+      }
+    },
+    {
+      "name": "City pending ruler capture changes fallen faction to bandits without awarding conquest",
+      "passed": false,
+      "evidence": {
+        "fallen": false,
+        "captured": false,
+        "updates": 0,
+        "targetKing": 1,
+        "prefect": 2
+      }
+    },
+    {
+      "name": "Field actual warmed healing simulation timeout does not clear armies or capture generals",
+      "passed": false,
+      "evidence": {
+        "result": 0,
+        "expectedLeftHP": 128,
+        "expectedRightHP": 150,
+        "actualLeftHP": 2,
+        "actualRightHP": 2,
+        "conserved": false,
+        "noReward": false
+      }
+    },
+    {
+      "name": "City actual warmed healing simulation timeout does not clear armies or capture generals",
+      "passed": false,
+      "evidence": {
+        "result": 0,
+        "expectedLeftHP": 128,
+        "expectedRightHP": 150,
+        "actualLeftHP": 2,
+        "actualRightHP": 2,
+        "conserved": false,
+        "noReward": false
+      }
+    }
+  ]
+}

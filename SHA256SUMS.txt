@@ -1,3 +1,4 @@
 3fccf9eaa39d528d54da659997a2d3bb6adfadf461db5737e53fc3752ff79f8c  sanguo-ai-enhanced-v1.2.0.apk
 fb8d2a222cd73c3cc5357f498adbea49d72720b645f2f1780937e797c66969d7  sanguo-ai-enhanced-v1.3.0.apk
 1579a1fc0f224355cf248494b23b3ee96517ae9e8ad6ce67be34f4b2136fd917  sanguo-ai-enhanced-v1.4.0.apk
+3f1e1a2ba0f31f008599fcd947aa91a8d11a2b8be8023493b14a74dbd0493302  sanguo-ai-enhanced-v1.4.1.apk
