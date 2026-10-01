@@ -1,6 +1,6 @@
 # 功能图解
 
-[返回首页](../README.md) · [下载游戏](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/releases/tag/v1.3.0) · [安装与存档](INSTALL.md)
+[返回首页](../README.md) · [下载游戏](https://github.com/SCUliujiacheng/sanguo-ai-enhanced/releases/tag/v1.4.0) · [安装与存档](INSTALL.md)
 
 自动内政、自动战斗和装备自动分配，都是加强版相对原版的扩展功能。**v1.3.0 保留这三项功能并重新调整战斗规则**，详情见[三兵种、升迁、智力冷却与协同攻城](GAMEPLAY-v1.3.0.md)。本页配图由玩家提供，红框和箭头保留图片中的原有标注。
 
@@ -51,3 +51,5 @@ v1.2.0 在原有 5 个时期之外增加 **7 个历史开局与 2 个架空挑�
 </p>
 
 历史搜将依据登场年份、活动地区与当时阵营筛选人才。历史归属势力灭亡后，当地占领者可以招募；已经归队或被俘的武将继续遵循实际游戏归属。两个架空挑战保留自由搜索，详见[历史搜将说明](RECRUITMENT.md)。
+
+当前版新增[兵符按需搜索、君主显示修复和跨月进攻筹备](GAMEPLAY-v1.4.0.md)。

@@ -1,0 +1,280 @@
+{
+  "source": "<workspace>\\work\\initiative-v1.4.0\\Assembly-CSharp.dll",
+  "sha256": "1F2EB10B7C5DB32432F4588EFD1148E2BB750DBA8485C4322AAAA660EC6CDC3D",
+  "failures": 0,
+  "adaptations": [
+    "__TestPlayerMoney: executes original System.Void ExpeditionController::SetArmy() IL_0036 through IL_0072; AI Random.Range input fixed to 3000; Unity scene construction outside slice omitted.",
+    "__TestAiMoney: executes original System.Boolean StrategyController::SetArmyMove(System.Int32,System.Int32,System.Collections.Generic.List`1<System.Int32>) IL_0233 through IL_026b; AI Random.Range input fixed to 3000; Unity scene construction outside slice omitted.",
+    "Full SetArmyMove behavior runs with only scene setup StrategyController.SetArmy stubbed, GetCityPos returning zero, and Unity Random.Range fixed at 3000. Planning, validation, city/general/army mutation, and money bytecode are unchanged.",
+    "IntoTheCity retains its complete game-state behavior; terminal Unity get_gameObject/Destroy calls are replaced by null/no-op stubs because CoreCLR rejects Unity native calls at JIT time even when unreachable."
+  ],
+  "tests": [
+    {
+      "name": "__TestPlayerMoney: 10000 - 3000 conserves money",
+      "passed": true,
+      "evidence": {
+        "city": 7000,
+        "carried": 3000,
+        "total": 10000
+      }
+    },
+    {
+      "name": "__TestAiMoney: 10000 - 3000 conserves money",
+      "passed": true,
+      "evidence": {
+        "city": 7000,
+        "carried": 3000,
+        "total": 10000
+      }
+    },
+    {
+      "name": "Money helper bounds: balance 10000, request 0",
+      "passed": true,
+      "evidence": {
+        "remaining": 10000,
+        "moved": 0,
+        "total": 10000
+      }
+    },
+    {
+      "name": "Money helper bounds: balance 10000, request -50",
+      "passed": true,
+      "evidence": {
+        "remaining": 10000,
+        "moved": 0,
+        "total": 10000
+      }
+    },
+    {
+      "name": "Money helper bounds: balance 10000, request 3000",
+      "passed": true,
+      "evidence": {
+        "remaining": 7000,
+        "moved": 3000,
+        "total": 10000
+      }
+    },
+    {
+      "name": "Money helper bounds: balance 10000, request 20000",
+      "passed": true,
+      "evidence": {
+        "remaining": 0,
+        "moved": 10000,
+        "total": 10000
+      }
+    },
+    {
+      "name": "Money helper bounds: balance 0, request 3000",
+      "passed": true,
+      "evidence": {
+        "remaining": 0,
+        "moved": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "Money helper bounds: balance 2147483647, request 2147483647",
+      "passed": true,
+      "evidence": {
+        "remaining": 0,
+        "moved": 2147483647,
+        "total": 2147483647
+      }
+    },
+    {
+      "name": "Snapshot counts all 5 defenders (1 healthy)",
+      "passed": true,
+      "evidence": {
+        "actual": 3110,
+        "expected": 3110,
+        "ready": 1,
+        "defenderCount": 5
+      }
+    },
+    {
+      "name": "Snapshot counts all 6 defenders (1 healthy)",
+      "passed": true,
+      "evidence": {
+        "actual": 3720,
+        "expected": 3720,
+        "ready": 1,
+        "defenderCount": 6
+      }
+    },
+    {
+      "name": "Snapshot counts all 6 defenders (0 healthy)",
+      "passed": true,
+      "evidence": {
+        "actual": 2580,
+        "expected": 2580,
+        "ready": 0,
+        "defenderCount": 6
+      }
+    },
+    {
+      "name": "Snapshot counts all 6 defenders (6 healthy)",
+      "passed": true,
+      "evidence": {
+        "actual": 4020,
+        "expected": 4020,
+        "ready": 6,
+        "defenderCount": 6
+      }
+    },
+    {
+      "name": "Faction planner refuses one extremely strong attacker versus 5 defenders",
+      "passed": true,
+      "evidence": {
+        "attackArmySizes": []
+      }
+    },
+    {
+      "name": "Faction planner refuses one extremely strong attacker versus 6 defenders",
+      "passed": true,
+      "evidence": {
+        "attackArmySizes": []
+      }
+    },
+    {
+      "name": "Faction planner still launches a sufficiently large attack",
+      "passed": true,
+      "evidence": {
+        "attackArmySizes": [
+          5
+        ]
+      }
+    },
+    {
+      "name": "Live dispatch list rejects stale one-versus-six order without mutating city",
+      "passed": true,
+      "evidence": {
+        "armies": 0,
+        "cityGenerals": 4,
+        "money": 10000
+      }
+    },
+    {
+      "name": "Live dispatch legacy rejects stale one-versus-six order without mutating city",
+      "passed": true,
+      "evidence": {
+        "armies": 0,
+        "cityGenerals": 4,
+        "money": 10000
+      }
+    },
+    {
+      "name": "Full valid AI dispatch debits money, moves five generals and retains a garrison",
+      "passed": true,
+      "evidence": {
+        "launched": true,
+        "cityGeneralCount": 3,
+        "armyGeneralCount": 5,
+        "cityMoney": 7000,
+        "carried": 3000
+      }
+    },
+    {
+      "name": "Arrival assault gate: unsafe-ai",
+      "passed": true,
+      "evidence": {
+        "avoided": true
+      }
+    },
+    {
+      "name": "Arrival assault gate: player-choice",
+      "passed": true,
+      "evidence": {
+        "avoided": false
+      }
+    },
+    {
+      "name": "Arrival assault gate: empty-city",
+      "passed": true,
+      "evidence": {
+        "avoided": false
+      }
+    },
+    {
+      "name": "Arrival assault gate: friendly-city",
+      "passed": true,
+      "evidence": {
+        "avoided": false
+      }
+    },
+    {
+      "name": "Arrival assault gate: sufficient-ai",
+      "passed": true,
+      "evidence": {
+        "avoided": false
+      }
+    },
+    {
+      "name": "Arrival assault gate: target-reinforced",
+      "passed": true,
+      "evidence": {
+        "before": false,
+        "after": true
+      }
+    },
+    {
+      "name": "IntoTheCity rejects hostile or invalid target 1 without merging generals or money",
+      "passed": true,
+      "evidence": {
+        "cityCount": 6,
+        "armyCount": 1,
+        "cityMoney": 10000,
+        "terminalError": null
+      }
+    },
+    {
+      "name": "IntoTheCity rejects hostile or invalid target -1 without merging generals or money",
+      "passed": true,
+      "evidence": {
+        "cityCount": 6,
+        "armyCount": 1,
+        "cityMoney": 10000,
+        "terminalError": null
+      }
+    },
+    {
+      "name": "IntoTheCity rejects hostile or invalid target 99 without merging generals or money",
+      "passed": true,
+      "evidence": {
+        "cityCount": 6,
+        "armyCount": 1,
+        "cityMoney": 10000,
+        "terminalError": null
+      }
+    },
+    {
+      "name": "Repeated player transfers exhaust the source without creating money",
+      "passed": true,
+      "evidence": {
+        "balances": [
+          7000,
+          4000,
+          1000,
+          0,
+          0
+        ],
+        "carried": [
+          3000,
+          3000,
+          3000,
+          1000,
+          0
+        ],
+        "total": 10000
+      }
+    },
+    {
+      "name": "Staging recruits rear-city help after subtracting the front-city garrison",
+      "passed": true,
+      "evidence": {
+        "from": 2,
+        "to": 0,
+        "count": 1
+      }
+    }
+  ]
+}

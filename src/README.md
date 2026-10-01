@@ -23,3 +23,14 @@ v1.3.0 另外公开以下规则代码供审阅：
 | [FactionFlagRules.cs](FactionFlagRules.cs) | 新增君主旗帜映射，保留已有动画素材。 |
 
 这些是辅助类，并非完整的战斗实现；对原游戏控制器的方法修改没有作为全量反编译源码发布。
+
+v1.4.0 新增辅助规则：
+
+| 文件 | 职责 |
+| --- | --- |
+| [SearchRewardRules.cs](SearchRewardRules.cs) | 搜索分支概率、全势力兵符学习需求与备用库存。 |
+| [OffensiveCampaignRules.cs](OffensiveCampaignRules.cs) | 持久进攻目标、友城路径与真实在途增援。 |
+| [RulerIdentityRules.cs](RulerIdentityRules.cs) | 当前君主姓名和头像资源。 |
+| [FactionFlagArt.cs](FactionFlagArt.cs) / [FactionFlagRules.cs](FactionFlagRules.cs) | 君主姓氏旗帜图集、四帧动画与原旗帜选择。 |
+
+完整进攻调度仍位于游戏控制器中；此处是可审阅的辅助规则，不是可单独编译的完整游戏源码。

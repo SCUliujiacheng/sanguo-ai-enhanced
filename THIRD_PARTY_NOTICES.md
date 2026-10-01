@@ -11,3 +11,7 @@ Copyright © 2017–2024 Adobe (http://www.adobe.com/).
 该字体采用 SIL Open Font License 1.1；完整许可文本见 [licenses/NotoSerifCJK-OFL.txt](licenses/NotoSerifCJK-OFL.txt)。生成脚本见 [scripts/build_menu_font.py](scripts/build_menu_font.py)，使用说明见[菜单字体生成](docs/MENU_FONT.md)。源 OTF 字体不随仓库分发。
 
 此说明仅涉及新增菜单所使用的 Noto 字体，不构成对原游戏代码、字体、美术、音乐或其他资源的许可。
+
+## 新增君主姓氏旗帜
+
+v1.4.0 新增旗帜的姓氏字形同样由上述 Noto Serif CJK SC Regular 字体生成，采用 SIL OFL 1.1。图集与元数据见 [scenarios/RulerFlags.xml](scenarios/RulerFlags.xml)，许可见 [RulerFlags.LICENSE.txt](scenarios/RulerFlags.LICENSE.txt)。旗面四帧为本项目新增像素图形，原游戏旗帜纹理保留。

@@ -1,0 +1,1533 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RulerFlags width="1024" height="1024" frames="4" frameDuration="0.16666666666666666">
+  <Ruler generalIdx="0" name="丁奉" surname="丁">
+    <Frame x="1" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="1" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="1" name="于禁" surname="于">
+    <Frame x="129" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="1" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="2" name="兀突骨" surname="兀">
+    <Frame x="257" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="1" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="3" name="公孙瓒" surname="公">
+    <Frame x="385" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="1" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="4" name="卞喜" surname="卞">
+    <Frame x="513" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="1" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="5" name="太史慈" surname="太">
+    <Frame x="641" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="1" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="6" name="孔岫" surname="孔">
+    <Frame x="769" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="1" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="7" name="孔融" surname="孔">
+    <Frame x="897" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="1" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="1" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="8" name="文钦" surname="文">
+    <Frame x="1" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="33" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="9" name="文聘" surname="文">
+    <Frame x="129" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="33" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="10" name="文鸯" surname="文">
+    <Frame x="257" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="33" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="11" name="文丑" surname="文">
+    <Frame x="385" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="33" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="12" name="牛金" surname="牛">
+    <Frame x="513" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="33" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="13" name="王允" surname="王">
+    <Frame x="641" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="33" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="14" name="王双" surname="王">
+    <Frame x="769" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="33" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="15" name="司马炎" surname="司">
+    <Frame x="897" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="33" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="33" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="16" name="司马昭" surname="司">
+    <Frame x="1" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="65" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="17" name="司马师" surname="司">
+    <Frame x="129" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="65" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="18" name="司马懿" surname="司">
+    <Frame x="257" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="65" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="19" name="甘宁" surname="甘">
+    <Frame x="385" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="65" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="20" name="田丰" surname="田">
+    <Frame x="513" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="65" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="21" name="伊籍" surname="伊">
+    <Frame x="641" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="65" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="22" name="全琮" surname="全">
+    <Frame x="769" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="65" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="23" name="忙牙长" surname="忙">
+    <Frame x="897" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="65" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="65" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="24" name="朱桓" surname="朱">
+    <Frame x="1" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="97" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="25" name="朵思大王" surname="朵">
+    <Frame x="129" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="97" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="26" name="吴兰" surname="吴">
+    <Frame x="257" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="97" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="27" name="吴懿" surname="吴">
+    <Frame x="385" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="97" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="28" name="吕布" surname="吕">
+    <Frame x="513" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="97" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="29" name="吕蒙" surname="吕">
+    <Frame x="641" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="97" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="30" name="宋宪" surname="宋">
+    <Frame x="769" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="97" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="31" name="李典" surname="李">
+    <Frame x="897" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="97" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="97" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="32" name="李恢" surname="李">
+    <Frame x="1" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="129" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="33" name="李儒" surname="李">
+    <Frame x="129" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="129" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="34" name="李严" surname="李">
+    <Frame x="257" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="129" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="35" name="李傕" surname="李">
+    <Frame x="385" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="129" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="36" name="步鹭" surname="步">
+    <Frame x="513" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="129" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="37" name="沙摩诃" surname="沙">
+    <Frame x="641" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="129" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="38" name="车胄" surname="车">
+    <Frame x="769" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="129" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="39" name="邢道荣" surname="邢">
+    <Frame x="897" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="129" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="129" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="40" name="典韦" surname="典">
+    <Frame x="1" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="161" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="41" name="周仓" surname="周">
+    <Frame x="129" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="161" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="42" name="周泰" surname="周">
+    <Frame x="257" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="161" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="43" name="周瑜" surname="周">
+    <Frame x="385" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="161" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="44" name="孟达" surname="孟">
+    <Frame x="513" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="161" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="45" name="孟优" surname="孟">
+    <Frame x="641" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="161" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="46" name="孟获" surname="孟">
+    <Frame x="769" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="161" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="47" name="法正" surname="法">
+    <Frame x="897" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="161" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="161" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="48" name="沮授" surname="沮">
+    <Frame x="1" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="193" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="49" name="金环三结" surname="金">
+    <Frame x="129" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="193" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="50" name="阿会喃" surname="阿">
+    <Frame x="257" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="193" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="51" name="姜维" surname="姜">
+    <Frame x="385" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="193" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="52" name="纪灵" surname="纪">
+    <Frame x="513" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="193" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="53" name="胡车儿" surname="胡">
+    <Frame x="641" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="193" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="54" name="凌统" surname="凌">
+    <Frame x="769" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="193" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="55" name="凌操" surname="凌">
+    <Frame x="897" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="193" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="193" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="56" name="夏侯惇" surname="夏">
+    <Frame x="1" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="225" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="57" name="夏侯渊" surname="夏">
+    <Frame x="129" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="225" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="58" name="夏侯霸" surname="夏">
+    <Frame x="257" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="225" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="59" name="孙坚" surname="孙">
+    <Frame x="385" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="225" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="60" name="孙策" surname="孙">
+    <Frame x="513" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="225" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="61" name="孙权" surname="孙">
+    <Frame x="641" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="225" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="62" name="孙翊" surname="孙">
+    <Frame x="769" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="225" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="63" name="徐晃" surname="徐">
+    <Frame x="897" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="225" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="225" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="64" name="徐庶" surname="徐">
+    <Frame x="1" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="257" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="65" name="徐盛" surname="徐">
+    <Frame x="129" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="257" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="66" name="徐质" surname="徐">
+    <Frame x="257" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="257" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="67" name="祝融夫人" surname="祝">
+    <Frame x="385" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="257" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="68" name="荀攸" surname="荀">
+    <Frame x="513" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="257" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="69" name="荀彧" surname="荀">
+    <Frame x="641" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="257" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="70" name="袁尚" surname="袁">
+    <Frame x="769" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="257" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="71" name="袁绍" surname="袁">
+    <Frame x="897" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="257" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="257" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="72" name="袁术" surname="袁">
+    <Frame x="1" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="289" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="73" name="袁熙" surname="袁">
+    <Frame x="129" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="289" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="74" name="袁谭" surname="袁">
+    <Frame x="257" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="289" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="75" name="郝昭" surname="郝">
+    <Frame x="385" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="289" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="76" name="马良" surname="马">
+    <Frame x="513" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="289" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="77" name="马岱" surname="马">
+    <Frame x="641" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="289" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="78" name="马超" surname="马">
+    <Frame x="769" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="289" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="79" name="马腾" surname="马">
+    <Frame x="897" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="289" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="289" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="80" name="马谡" surname="马">
+    <Frame x="1" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="321" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="81" name="高顺" surname="高">
+    <Frame x="129" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="321" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="82" name="高览" surname="高">
+    <Frame x="257" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="321" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="83" name="张任" surname="张">
+    <Frame x="385" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="321" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="84" name="张松" surname="张">
+    <Frame x="513" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="321" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="85" name="张虎" surname="张">
+    <Frame x="641" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="321" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="86" name="张昭" surname="张">
+    <Frame x="769" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="321" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="87" name="张苞" surname="张">
+    <Frame x="897" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="321" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="321" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="88" name="张郃" surname="张">
+    <Frame x="1" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="353" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="89" name="张飞" surname="张">
+    <Frame x="129" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="353" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="90" name="张鲁" surname="张">
+    <Frame x="257" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="353" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="91" name="张辽" surname="张">
+    <Frame x="385" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="353" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="92" name="张纮" surname="张">
+    <Frame x="513" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="353" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="93" name="曹仁" surname="曹">
+    <Frame x="641" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="353" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="94" name="曹芳" surname="曹">
+    <Frame x="769" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="353" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="95" name="曹爽" surname="曹">
+    <Frame x="897" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="353" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="353" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="96" name="曹植" surname="曹">
+    <Frame x="1" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="385" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="97" name="曹彰" surname="曹">
+    <Frame x="129" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="385" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="98" name="曹操" surname="曹">
+    <Frame x="257" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="385" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="99" name="曹睿" surname="曹">
+    <Frame x="385" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="385" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="100" name="许褚" surname="许">
+    <Frame x="513" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="385" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="101" name="逢纪" surname="逢">
+    <Frame x="641" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="385" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="102" name="郭嘉" surname="郭">
+    <Frame x="769" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="385" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="103" name="郭图" surname="郭">
+    <Frame x="897" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="385" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="385" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="104" name="郭汜" surname="郭">
+    <Frame x="1" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="417" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="105" name="陈宫" surname="陈">
+    <Frame x="129" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="417" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="106" name="陈琳" surname="陈">
+    <Frame x="257" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="417" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="107" name="陈群" surname="陈">
+    <Frame x="385" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="417" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="108" name="陆抗" surname="陆">
+    <Frame x="513" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="417" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="109" name="陆逊" surname="陆">
+    <Frame x="641" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="417" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="110" name="陶谦" surname="陶">
+    <Frame x="769" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="417" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="111" name="程昱" surname="程">
+    <Frame x="897" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="417" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="417" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="112" name="程普" surname="程">
+    <Frame x="1" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="449" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="113" name="华雄" surname="华">
+    <Frame x="129" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="449" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="114" name="华歆" surname="华">
+    <Frame x="257" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="449" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="115" name="黄忠" surname="黄">
+    <Frame x="385" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="449" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="116" name="黄祖" surname="黄">
+    <Frame x="513" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="449" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="117" name="黄盖" surname="黄">
+    <Frame x="641" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="449" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="118" name="黄权" surname="黄">
+    <Frame x="769" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="449" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="119" name="杨修" surname="杨">
+    <Frame x="897" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="449" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="449" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="120" name="董允" surname="董">
+    <Frame x="1" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="481" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="121" name="董卓" surname="董">
+    <Frame x="129" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="481" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="122" name="董荼那" surname="董">
+    <Frame x="257" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="481" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="123" name="贾充" surname="贾">
+    <Frame x="385" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="481" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="124" name="贾诩" surname="贾">
+    <Frame x="513" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="481" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="125" name="廖化" surname="廖">
+    <Frame x="641" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="481" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="126" name="满宠" surname="满">
+    <Frame x="769" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="481" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="127" name="赵统" surname="赵">
+    <Frame x="897" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="481" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="481" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="128" name="赵云" surname="赵">
+    <Frame x="1" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="513" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="129" name="赵广" surname="赵">
+    <Frame x="129" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="513" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="130" name="蒯良" surname="蒯">
+    <Frame x="257" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="513" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="131" name="蒯越" surname="蒯">
+    <Frame x="385" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="513" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="132" name="刘表" surname="刘">
+    <Frame x="513" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="513" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="133" name="刘焉" surname="刘">
+    <Frame x="641" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="513" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="134" name="刘备" surname="刘">
+    <Frame x="769" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="513" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="135" name="刘晔" surname="刘">
+    <Frame x="897" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="513" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="513" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="136" name="刘禅" surname="刘">
+    <Frame x="1" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="545" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="137" name="刘繇" surname="刘">
+    <Frame x="129" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="545" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="138" name="樊稠" surname="樊">
+    <Frame x="257" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="545" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="139" name="乐进" surname="乐">
+    <Frame x="385" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="545" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="140" name="潘璋" surname="潘">
+    <Frame x="513" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="545" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="141" name="蒋济" surname="蒋">
+    <Frame x="641" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="545" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="142" name="蒋琬" surname="蒋">
+    <Frame x="769" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="545" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="143" name="蔡邕" surname="蔡">
+    <Frame x="897" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="545" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="545" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="144" name="蔡瑁" surname="蔡">
+    <Frame x="1" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="577" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="145" name="诸葛亮" surname="诸">
+    <Frame x="129" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="577" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="146" name="诸葛恪" surname="诸">
+    <Frame x="257" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="577" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="147" name="诸葛瑾" surname="诸">
+    <Frame x="385" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="577" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="148" name="鲁肃" surname="鲁">
+    <Frame x="513" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="577" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="149" name="邓艾" surname="邓">
+    <Frame x="641" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="577" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="150" name="邓忠" surname="邓">
+    <Frame x="769" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="577" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="151" name="邓芝" surname="邓">
+    <Frame x="897" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="577" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="577" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="152" name="卢植" surname="卢">
+    <Frame x="1" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="609" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="153" name="阎圃" surname="阎">
+    <Frame x="129" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="609" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="154" name="钟会" surname="钟">
+    <Frame x="257" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="609" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="155" name="韩当" surname="韩">
+    <Frame x="385" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="609" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="156" name="韩馥" surname="韩">
+    <Frame x="513" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="609" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="157" name="颜良" surname="颜">
+    <Frame x="641" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="609" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="158" name="魏延" surname="魏">
+    <Frame x="769" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="609" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="159" name="魏续" surname="魏">
+    <Frame x="897" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="609" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="609" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="160" name="庞统" surname="庞">
+    <Frame x="1" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="641" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="161" name="庞德" surname="庞">
+    <Frame x="129" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="641" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="162" name="谯周" surname="谯">
+    <Frame x="257" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="641" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="163" name="关平" surname="关">
+    <Frame x="385" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="641" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="164" name="关羽" surname="关">
+    <Frame x="513" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="641" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="165" name="关索" surname="关">
+    <Frame x="641" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="641" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="166" name="关兴" surname="关">
+    <Frame x="769" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="641" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="167" name="严白虎" surname="严">
+    <Frame x="897" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="641" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="641" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="168" name="严纲" surname="严">
+    <Frame x="1" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="673" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="169" name="严舆" surname="严">
+    <Frame x="129" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="673" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="170" name="严颜" surname="严">
+    <Frame x="257" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="673" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="171" name="公孙越" surname="公">
+    <Frame x="385" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="673" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="172" name="王朗" surname="王">
+    <Frame x="513" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="673" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="173" name="朱治" surname="朱">
+    <Frame x="641" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="673" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="174" name="辛评" surname="辛">
+    <Frame x="769" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="673" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="175" name="武安国" surname="武">
+    <Frame x="897" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="673" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="673" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="176" name="皇甫嵩" surname="皇">
+    <Frame x="1" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="705" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="177" name="孙乾" surname="孙">
+    <Frame x="129" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="705" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="178" name="祖茂" surname="祖">
+    <Frame x="257" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="705" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="179" name="马玩" surname="马">
+    <Frame x="385" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="705" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="180" name="高沛" surname="高">
+    <Frame x="513" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="705" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="181" name="张勋" surname="张">
+    <Frame x="641" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="705" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="182" name="张济" surname="张">
+    <Frame x="769" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="705" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="183" name="曹洪" surname="曹">
+    <Frame x="897" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="705" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="705" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="184" name="梁兴" surname="梁">
+    <Frame x="1" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="737" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="185" name="陈武" surname="陈">
+    <Frame x="129" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="737" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="186" name="陈登" surname="陈">
+    <Frame x="257" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="737" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="187" name="陈横" surname="陈">
+    <Frame x="385" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="737" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="188" name="乔玄" surname="乔">
+    <Frame x="513" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="737" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="189" name="乔瑁" surname="乔">
+    <Frame x="641" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="737" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="190" name="关凤" surname="关">
+    <Frame x="769" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="737" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="191" name="杨怀" surname="杨">
+    <Frame x="897" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="737" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="737" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="192" name="虞翻" surname="虞">
+    <Frame x="1" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="769" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="193" name="邹靖" surname="邹">
+    <Frame x="129" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="769" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="194" name="雷铜" surname="雷">
+    <Frame x="257" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="769" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="195" name="雷薄" surname="雷">
+    <Frame x="385" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="769" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="196" name="刘璋" surname="刘">
+    <Frame x="513" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="769" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="197" name="潘凤" surname="潘">
+    <Frame x="641" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="769" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="198" name="霍峻" surname="霍">
+    <Frame x="769" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="769" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="199" name="糜竺" surname="糜">
+    <Frame x="897" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="769" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="769" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="200" name="糜芳" surname="糜">
+    <Frame x="1" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="801" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="201" name="韩嵩" surname="韩">
+    <Frame x="129" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="801" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="202" name="简雍" surname="简">
+    <Frame x="257" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="801" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="203" name="阚泽" surname="阚">
+    <Frame x="385" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="801" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="204" name="曹丕" surname="曹">
+    <Frame x="513" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="801" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="205" name="貂蝉" surname="貂">
+    <Frame x="641" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="801" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="206" name="孙尚香" surname="孙">
+    <Frame x="769" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="801" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="207" name="何进" surname="何">
+    <Frame x="897" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="801" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="801" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="208" name="张英" surname="张">
+    <Frame x="1" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="833" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="209" name="丁原" surname="丁">
+    <Frame x="129" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="833" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="210" name="张角" surname="张">
+    <Frame x="257" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="833" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="211" name="张梁" surname="张">
+    <Frame x="385" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="833" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="212" name="张宝" surname="张">
+    <Frame x="513" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="833" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="213" name="程远志" surname="程">
+    <Frame x="641" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="833" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="214" name="邓茂" surname="邓">
+    <Frame x="769" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="833" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="215" name="管亥" surname="管">
+    <Frame x="897" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="833" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="833" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="216" name="赵弘" surname="赵">
+    <Frame x="1" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="865" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="217" name="韩忠" surname="韩">
+    <Frame x="129" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="865" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="218" name="龚都" surname="龚">
+    <Frame x="257" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="865" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="219" name="何仪" surname="何">
+    <Frame x="385" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="865" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="220" name="龚景" surname="龚">
+    <Frame x="513" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="865" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="221" name="曹真" surname="曹">
+    <Frame x="641" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="865" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="222" name="刘封" surname="刘">
+    <Frame x="769" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="865" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="223" name="董承" surname="董">
+    <Frame x="897" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="865" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="865" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="224" name="董袭" surname="董">
+    <Frame x="1" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="897" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="225" name="张闿" surname="张">
+    <Frame x="129" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="897" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="226" name="张翼" surname="张">
+    <Frame x="257" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="897" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="227" name="张嶷" surname="张">
+    <Frame x="385" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="897" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="228" name="彻里吉" surname="彻">
+    <Frame x="513" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="897" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="229" name="臧霸" surname="臧">
+    <Frame x="641" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="897" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="230" name="徐荣" surname="徐">
+    <Frame x="769" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="897" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="231" name="夏侯恩" surname="夏">
+    <Frame x="897" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="897" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="897" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="232" name="淳于琼" surname="淳">
+    <Frame x="1" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="929" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="233" name="曹休" surname="曹">
+    <Frame x="129" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="929" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="234" name="曹纯" surname="曹">
+    <Frame x="257" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="929" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="235" name="孙韶" surname="孙">
+    <Frame x="385" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="929" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="236" name="金旋" surname="金">
+    <Frame x="513" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="929" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="237" name="公孙康" surname="公">
+    <Frame x="641" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="929" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="238" name="向朗" surname="向">
+    <Frame x="769" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="929" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="239" name="吕范" surname="吕">
+    <Frame x="897" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="929" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="929" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="240" name="李异" surname="李">
+    <Frame x="1" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="961" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="241" name="夏侯尚" surname="夏">
+    <Frame x="129" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="961" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="242" name="于吉" surname="于">
+    <Frame x="257" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="961" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="243" name="左慈" surname="左">
+    <Frame x="385" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="961" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="244" name="孙静" surname="孙">
+    <Frame x="513" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="961" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="245" name="桓范" surname="桓">
+    <Frame x="641" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="961" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="246" name="费祎" surname="费">
+    <Frame x="769" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="961" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="247" name="轲比能" surname="轲">
+    <Frame x="897" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="929" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="961" y="961" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="993" y="961" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="248" name="董旻" surname="董">
+    <Frame x="1" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="33" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="65" y="993" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="97" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="249" name="刘琦" surname="刘">
+    <Frame x="129" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="161" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="193" y="993" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="225" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="250" name="刘琮" surname="刘">
+    <Frame x="257" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="289" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="321" y="993" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="353" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="251" name="蒋钦" surname="蒋">
+    <Frame x="385" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="417" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="449" y="993" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="481" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="252" name="苏飞" surname="苏">
+    <Frame x="513" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="545" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="577" y="993" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="609" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="253" name="谭雄" surname="谭">
+    <Frame x="641" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="673" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="705" y="993" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="737" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+  <Ruler generalIdx="254" name="顾雍" surname="顾">
+    <Frame x="769" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="801" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+    <Frame x="833" y="993" width="19" height="19" originalWidth="38" originalHeight="36" trimX="19" trimY="0" duration="0.16666666666666666" />
+    <Frame x="865" y="993" width="18" height="19" originalWidth="36" originalHeight="36" trimX="18" trimY="0" duration="0.16666666666666666" />
+  </Ruler>
+</RulerFlags>

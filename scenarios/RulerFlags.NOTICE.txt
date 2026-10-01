@@ -1,0 +1,1 @@
+Ruler surname glyphs generated from Noto Serif CJK SC Regular. Copyright 2017-2024 Adobe. Licensed under SIL OFL 1.1. See RulerFlags.LICENSE.txt. Flag frames are original pixel artwork; the source game textures are unchanged.
