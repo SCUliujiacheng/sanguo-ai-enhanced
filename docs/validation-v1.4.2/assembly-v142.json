@@ -1,0 +1,49 @@
+{
+  "original": "<workspace>\\work\\skill-meter-diagnostic-v141-d1\\validation-baseline\\Assembly-CSharp.dll",
+  "patched": "<workspace>\\work\\skill-meter-fix-v1.4.2\\Assembly-CSharp.dll",
+  "original_sha256": "5701378b5d06476cb99881e21fde5892ae64ac8737e216f195ee7562fb217433",
+  "patched_sha256": "a3b8d24d0335c358c6203cd3d3d4dc253bcebabf285053a8e3bb41e81d30511f",
+  "runtime": "v2.0.50727",
+  "assembly_references": [
+    "ex2D.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "LitJson, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "added_assembly_references": [],
+  "method_count": 3346,
+  "unchanged_original_methods": 3344,
+  "changed_methods": [
+    "System.Void WSInfoPanel::LateUpdate()",
+    "System.Void WSInfoPanel::RefreshSkillMeterClipping(exSoftClip)"
+  ],
+  "removed_methods": [],
+  "resolved_reference_count": 60605,
+  "unresolved_reference_count": 0,
+  "generic_parameter_references": 69,
+  "runtime_provided_array_member_references": 35,
+  "stack_results": [
+    {
+      "method": "System.Void WSInfoPanel::LateUpdate()",
+      "computed_max_stack": 2,
+      "declared_max_stack": 8,
+      "visited_instructions": 9,
+      "instructions": 9,
+      "errors": []
+    },
+    {
+      "method": "System.Void WSInfoPanel::RefreshSkillMeterClipping(exSoftClip)",
+      "computed_max_stack": 2,
+      "declared_max_stack": 8,
+      "visited_instructions": 12,
+      "instructions": 12,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "limitation": "Static metadata, member resolution, and stack-height validation only; does not execute Unity or validate full IL type compatibility."
+}

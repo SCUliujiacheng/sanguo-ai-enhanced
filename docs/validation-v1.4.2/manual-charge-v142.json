@@ -1,0 +1,732 @@
+{
+  "source": "<workspace>\\work\\skill-meter-fix-v1.4.2\\Assembly-CSharp.dll",
+  "sha256": "a3b8d24d0335c358c6203cd3d3d4dc253bcebabf285053a8e3bb41e81d30511f",
+  "failures": 0,
+  "adaptations": [
+    "Actual DLL WSInfoPanel.Update, OnGeneralInfoUpdate, OnTimeLeftUpdate, OnSwordStateUpdate, ResetSwordValue, WarSceneController.SetIsSwordFull/IsSwordFull, GeneralController.GetState/IsCanReleaseMagic and MagicController.OnGeneralSetMagic/OnMagicOver bytecode is retained. Unity Time.deltaTime is supplied by the test. Actual original ex2D clipping width getter/setter bytecode is retained on uninitialized boundary fixtures; exPlane updateFlags rendering dispatch is a no-op. Sprite color and font text setters are no-op render boundaries; GeneralController.SetOnMagic's native animation is a no-op. Resource loading, prefab instantiate/destroy and gray overlay rendering are stubbed. Original MagicConfig XML parsing is retained. No Android renderer or scene/touch behavior is claimed."
+  ],
+  "metrics": {
+    "rightRepeat": {
+      "firstTicks": 69,
+      "reset": 0,
+      "nextTick": 1.0555555,
+      "fullAfterCast": false,
+      "secondTicks": 125,
+      "manaBefore": 120,
+      "manaAfter": 100,
+      "canCastAgain": true
+    },
+    "sixCastLoop": [
+      {
+        "cast": 1,
+        "ticks": 69,
+        "mana": 130,
+        "meter": 0
+      },
+      {
+        "cast": 2,
+        "ticks": 126,
+        "mana": 110,
+        "meter": 0
+      },
+      {
+        "cast": 3,
+        "ticks": 126,
+        "mana": 90,
+        "meter": 0
+      },
+      {
+        "cast": 4,
+        "ticks": 126,
+        "mana": 70,
+        "meter": 0
+      },
+      {
+        "cast": 5,
+        "ticks": 126,
+        "mana": 50,
+        "meter": 0
+      },
+      {
+        "cast": 6,
+        "ticks": 126,
+        "mana": 30,
+        "meter": 0
+      }
+    ],
+    "intellectCooldown": {
+      "strength": 40,
+      "lowIntellect": 40,
+      "lowTicks": 304,
+      "highIntellect": 100,
+      "highTicks": 126
+    },
+    "lowMana": {
+      "manaRemaining": 5,
+      "gauge": 132,
+      "full": true,
+      "canCastAgain": false
+    },
+    "wholeUpdateRepeat": [
+      {
+        "cast": 1,
+        "ticks": 69,
+        "meter": 1.0555555,
+        "clipWidth": 1.0555555,
+        "mana": 100,
+        "timeLeft": 92
+      },
+      {
+        "cast": 2,
+        "ticks": 125,
+        "meter": 1.0555555,
+        "clipWidth": 1.0555555,
+        "mana": 80,
+        "timeLeft": 80
+      },
+      {
+        "cast": 3,
+        "ticks": 125,
+        "meter": 1.0555555,
+        "clipWidth": 1.0555555,
+        "mana": 60,
+        "timeLeft": 67
+      }
+    ],
+    "escapeRecovery": {
+      "escapedGauge": 1,
+      "resumedGauge": 2.0555553
+    },
+    "screenshotCase": {
+      "note": "Original APK default INT and base skills; screenshot shown STR, HP and MP maxima; no equipment INT change assumed. World combat damage, touch and native animation are not simulated. Cast is triggered immediately when ready, completion returns Running immediately. Both sides' gauge still charges in Magic state as separately tested.",
+      "right": {
+        "name": "马岱",
+        "generalIndex": 77,
+        "strength": 85,
+        "intellect": 52,
+        "skill": 27,
+        "skillName": "飞矢",
+        "skillCost": 20,
+        "healthCur": 14,
+        "healthMax": 88,
+        "manaMax": 41
+      },
+      "left": {
+        "name": "阎圃",
+        "generalIndex": 153,
+        "strength": 42,
+        "intellect": 80,
+        "skill": 5,
+        "skillName": "落月弓",
+        "skillCost": 18,
+        "healthCur": 79,
+        "healthMax": 79,
+        "manaMax": 48
+      },
+      "casts": [
+        {
+          "side": "Left",
+          "elapsedSeconds": 10.2,
+          "battleTimeLeft": 89,
+          "manaAfter": 30,
+          "meterAfter": 0,
+          "skill": 5
+        },
+        {
+          "side": "Right",
+          "elapsedSeconds": 12.4,
+          "battleTimeLeft": 87,
+          "manaAfter": 21,
+          "meterAfter": 0,
+          "skill": 27
+        },
+        {
+          "side": "Left",
+          "elapsedSeconds": 28.8,
+          "battleTimeLeft": 71,
+          "manaAfter": 12,
+          "meterAfter": 0,
+          "skill": 5
+        },
+        {
+          "side": "Right",
+          "elapsedSeconds": 35,
+          "battleTimeLeft": 64,
+          "manaAfter": 1,
+          "meterAfter": 0,
+          "skill": 27
+        }
+      ],
+      "samples": [
+        {
+          "elapsedSeconds": 1,
+          "battleTimeLeft": 98,
+          "leftMeter": 67.083336,
+          "rightMeter": 65.833336,
+          "leftClip": 67.083336,
+          "rightClip": 65.833336,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 2,
+          "battleTimeLeft": 97,
+          "leftMeter": 74.166695,
+          "rightMeter": 71.666695,
+          "leftClip": 74.166695,
+          "rightClip": 71.666695,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 3,
+          "battleTimeLeft": 96,
+          "leftMeter": 81.25005,
+          "rightMeter": 77.50005,
+          "leftClip": 81.25005,
+          "rightClip": 77.50005,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 4,
+          "battleTimeLeft": 95,
+          "leftMeter": 88.33341,
+          "rightMeter": 83.33341,
+          "leftClip": 88.33341,
+          "rightClip": 83.33341,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 5,
+          "battleTimeLeft": 94,
+          "leftMeter": 95.41677,
+          "rightMeter": 89.16677,
+          "leftClip": 95.41677,
+          "rightClip": 89.16677,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 6,
+          "battleTimeLeft": 93,
+          "leftMeter": 102.50013,
+          "rightMeter": 95.00013,
+          "leftClip": 102.50013,
+          "rightClip": 95.00013,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 7,
+          "battleTimeLeft": 92,
+          "leftMeter": 109.58349,
+          "rightMeter": 100.83349,
+          "leftClip": 109.58349,
+          "rightClip": 100.83349,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 8,
+          "battleTimeLeft": 91,
+          "leftMeter": 116.66685,
+          "rightMeter": 106.66685,
+          "leftClip": 116.66685,
+          "rightClip": 106.66685,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 9,
+          "battleTimeLeft": 90,
+          "leftMeter": 123.750206,
+          "rightMeter": 112.500206,
+          "leftClip": 123.750206,
+          "rightClip": 112.500206,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 10,
+          "battleTimeLeft": 89,
+          "leftMeter": 130.83353,
+          "rightMeter": 118.333565,
+          "leftClip": 130.83353,
+          "rightClip": 118.333565,
+          "leftMana": 48,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 11,
+          "battleTimeLeft": 88,
+          "leftMeter": 5.958334,
+          "rightMeter": 124.16692,
+          "leftClip": 5.958334,
+          "rightClip": 124.16692,
+          "leftMana": 30,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 12,
+          "battleTimeLeft": 87,
+          "leftMeter": 13.041665,
+          "rightMeter": 130.00026,
+          "leftClip": 13.041665,
+          "rightClip": 130.00026,
+          "leftMana": 30,
+          "rightMana": 41
+        },
+        {
+          "elapsedSeconds": 13,
+          "battleTimeLeft": 86,
+          "leftMeter": 20.125,
+          "rightMeter": 3.9166663,
+          "leftClip": 20.125,
+          "rightClip": 3.9166663,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 14,
+          "battleTimeLeft": 85,
+          "leftMeter": 27.20834,
+          "rightMeter": 9.749999,
+          "leftClip": 27.20834,
+          "rightClip": 9.749999,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 15,
+          "battleTimeLeft": 84,
+          "leftMeter": 34.29167,
+          "rightMeter": 15.583329,
+          "leftClip": 34.29167,
+          "rightClip": 15.583329,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 16,
+          "battleTimeLeft": 83,
+          "leftMeter": 41.374992,
+          "rightMeter": 21.416668,
+          "leftClip": 41.374992,
+          "rightClip": 21.416668,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 17,
+          "battleTimeLeft": 82,
+          "leftMeter": 48.458313,
+          "rightMeter": 27.250008,
+          "leftClip": 48.458313,
+          "rightClip": 27.250008,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 18,
+          "battleTimeLeft": 81,
+          "leftMeter": 55.541634,
+          "rightMeter": 33.083344,
+          "leftClip": 55.541634,
+          "rightClip": 33.083344,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 19,
+          "battleTimeLeft": 80,
+          "leftMeter": 62.624954,
+          "rightMeter": 38.916664,
+          "leftClip": 62.624954,
+          "rightClip": 38.916664,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 20,
+          "battleTimeLeft": 79,
+          "leftMeter": 69.708305,
+          "rightMeter": 44.749985,
+          "leftClip": 69.708305,
+          "rightClip": 44.749985,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 21,
+          "battleTimeLeft": 78,
+          "leftMeter": 76.791664,
+          "rightMeter": 50.583305,
+          "leftClip": 76.791664,
+          "rightClip": 50.583305,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 22,
+          "battleTimeLeft": 77,
+          "leftMeter": 83.87502,
+          "rightMeter": 56.416626,
+          "leftClip": 83.87502,
+          "rightClip": 56.416626,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 23,
+          "battleTimeLeft": 76,
+          "leftMeter": 90.95838,
+          "rightMeter": 62.249947,
+          "leftClip": 90.95838,
+          "rightClip": 62.249947,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 24,
+          "battleTimeLeft": 75,
+          "leftMeter": 98.04174,
+          "rightMeter": 68.08329,
+          "leftClip": 98.04174,
+          "rightClip": 68.08329,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 25,
+          "battleTimeLeft": 74,
+          "leftMeter": 105.1251,
+          "rightMeter": 73.91665,
+          "leftClip": 105.1251,
+          "rightClip": 73.91665,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 26,
+          "battleTimeLeft": 73,
+          "leftMeter": 112.20846,
+          "rightMeter": 79.75001,
+          "leftClip": 112.20846,
+          "rightClip": 79.75001,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 27,
+          "battleTimeLeft": 72,
+          "leftMeter": 119.29182,
+          "rightMeter": 85.58337,
+          "leftClip": 119.29182,
+          "rightClip": 85.58337,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 28,
+          "battleTimeLeft": 71,
+          "leftMeter": 126.375175,
+          "rightMeter": 91.416725,
+          "leftClip": 126.375175,
+          "rightClip": 91.416725,
+          "leftMana": 30,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 29,
+          "battleTimeLeft": 70,
+          "leftMeter": 1.7083334,
+          "rightMeter": 97.250084,
+          "leftClip": 1.7083334,
+          "rightClip": 97.250084,
+          "leftMana": 12,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 30,
+          "battleTimeLeft": 69,
+          "leftMeter": 8.791667,
+          "rightMeter": 103.08344,
+          "leftClip": 8.791667,
+          "rightClip": 103.08344,
+          "leftMana": 12,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 31,
+          "battleTimeLeft": 68,
+          "leftMeter": 15.874997,
+          "rightMeter": 108.9168,
+          "leftClip": 15.874997,
+          "rightClip": 108.9168,
+          "leftMana": 12,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 32,
+          "battleTimeLeft": 67,
+          "leftMeter": 22.958336,
+          "rightMeter": 114.75016,
+          "leftClip": 22.958336,
+          "rightClip": 114.75016,
+          "leftMana": 12,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 33,
+          "battleTimeLeft": 66,
+          "leftMeter": 30.041676,
+          "rightMeter": 120.58352,
+          "leftClip": 30.041676,
+          "rightClip": 120.58352,
+          "leftMana": 12,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 34,
+          "battleTimeLeft": 65,
+          "leftMeter": 37.125,
+          "rightMeter": 126.41688,
+          "leftClip": 37.125,
+          "rightClip": 126.41688,
+          "leftMana": 12,
+          "rightMana": 21
+        },
+        {
+          "elapsedSeconds": 35,
+          "battleTimeLeft": 64,
+          "leftMeter": 44.20832,
+          "rightMeter": 0,
+          "leftClip": 44.20832,
+          "rightClip": 0,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 36,
+          "battleTimeLeft": 63,
+          "leftMeter": 51.29164,
+          "rightMeter": 6.25,
+          "leftClip": 51.29164,
+          "rightClip": 6.25,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 37,
+          "battleTimeLeft": 62,
+          "leftMeter": 58.37496,
+          "rightMeter": 12.083331,
+          "leftClip": 58.37496,
+          "rightClip": 12.083331,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 38,
+          "battleTimeLeft": 61,
+          "leftMeter": 65.45829,
+          "rightMeter": 17.916664,
+          "leftClip": 65.45829,
+          "rightClip": 17.916664,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 39,
+          "battleTimeLeft": 60,
+          "leftMeter": 72.54165,
+          "rightMeter": 23.750004,
+          "leftClip": 72.54165,
+          "rightClip": 23.750004,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 40,
+          "battleTimeLeft": 59,
+          "leftMeter": 79.62501,
+          "rightMeter": 29.583344,
+          "leftClip": 79.62501,
+          "rightClip": 29.583344,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 41,
+          "battleTimeLeft": 58,
+          "leftMeter": 86.70837,
+          "rightMeter": 35.41667,
+          "leftClip": 86.70837,
+          "rightClip": 35.41667,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 42,
+          "battleTimeLeft": 57,
+          "leftMeter": 93.791725,
+          "rightMeter": 41.249992,
+          "leftClip": 93.791725,
+          "rightClip": 41.249992,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 43,
+          "battleTimeLeft": 56,
+          "leftMeter": 100.875084,
+          "rightMeter": 47.083313,
+          "leftClip": 100.875084,
+          "rightClip": 47.083313,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 44,
+          "battleTimeLeft": 55,
+          "leftMeter": 107.95844,
+          "rightMeter": 52.916634,
+          "leftClip": 107.95844,
+          "rightClip": 52.916634,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 45,
+          "battleTimeLeft": 54,
+          "leftMeter": 115.0418,
+          "rightMeter": 58.749954,
+          "leftClip": 115.0418,
+          "rightClip": 58.749954,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 46,
+          "battleTimeLeft": 53,
+          "leftMeter": 122.12516,
+          "rightMeter": 64.583275,
+          "leftClip": 122.12516,
+          "rightClip": 64.583275,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 47,
+          "battleTimeLeft": 52,
+          "leftMeter": 129.20851,
+          "rightMeter": 70.41663,
+          "leftClip": 129.20851,
+          "rightClip": 70.41663,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 48,
+          "battleTimeLeft": 51,
+          "leftMeter": 132,
+          "rightMeter": 76.24999,
+          "leftClip": 132,
+          "rightClip": 76.24999,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 49,
+          "battleTimeLeft": 50,
+          "leftMeter": 132,
+          "rightMeter": 82.08335,
+          "leftClip": 132,
+          "rightClip": 82.08335,
+          "leftMana": 12,
+          "rightMana": 1
+        },
+        {
+          "elapsedSeconds": 50,
+          "battleTimeLeft": 49,
+          "leftMeter": 132,
+          "rightMeter": 87.91671,
+          "leftClip": 132,
+          "rightClip": 87.91671,
+          "leftMana": 12,
+          "rightMana": 1
+        }
+      ]
+    },
+    "maDaiHitGauge": {
+      "elapsedAfterCast": 3,
+      "health": 14,
+      "gauge": 17.916664,
+      "clip": 17.916664
+    },
+    "maDaiEscapeGauge": {
+      "escapeGauge": 1,
+      "after10SecondsRunning": 59.333286
+    }
+  },
+  "tests": [
+    {
+      "name": "actual right-side cast resets and continues charge while sufficient MP remains",
+      "passed": true
+    },
+    {
+      "name": "actual left-side cast resets and continues charge while sufficient MP remains",
+      "passed": true
+    },
+    {
+      "name": "six actual repeated casts recharge independently and deduct the real skill MP cost",
+      "passed": true
+    },
+    {
+      "name": "higher intellect recharges faster after a cast than equal-strength lower intellect",
+      "passed": true
+    },
+    {
+      "name": "zero MP does not create a one-cast lock and remains correctly unavailable",
+      "passed": true
+    },
+    {
+      "name": "under-cost remaining MP distinguishes affordability from stalled gauge",
+      "passed": true
+    },
+    {
+      "name": "menu pause halts charge and returning to Running resumes it",
+      "passed": true
+    },
+    {
+      "name": "magic effect state allows cooldown to continue before scene returns Running",
+      "passed": true
+    },
+    {
+      "name": "whole info-panel Update recharges three repeated casts with actual clip setters",
+      "passed": true
+    },
+    {
+      "name": "whole Update still charges with zero mana and zero mana-clipping width",
+      "passed": true
+    },
+    {
+      "name": "escaping drains charge to minimum and changing back to running resumes charging",
+      "passed": true
+    },
+    {
+      "name": "Ma Dai versus Yan Pu actual base skills recharge after both first casts on the battle clock",
+      "passed": true
+    },
+    {
+      "name": "Ma Dai is-hit and parry flags do not stall the skill bar while HP remains positive",
+      "passed": true
+    },
+    {
+      "name": "Ma Dai true Escape state reverses the gauge and returning Running recharges it",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "source": "<workspace>\\work\\skill-meter-fix-v1.4.2\\Assembly-CSharp.dll",
+  "sha256": "a3b8d24d0335c358c6203cd3d3d4dc253bcebabf285053a8e3bb41e81d30511f",
+  "failures": 0,
+  "adaptations": [
+    "Actual supplied WSInfoPanel.Update, OnGeneralInfoUpdate, OnTimeLeftUpdate, OnSwordStateUpdate, optional real WSInfoPanel.LateUpdate, actual ex2D exSoftClip.width/Commit/UpdateClipInfo, exPlane.clipInfo and exSpriteMng.OnPreRender run. Unity Behaviour.enabled dispatches actual OnEnable/OnDisable only on transitions. Transform.position is zero; Time.deltaTime is 0.1 seconds. No Android scene or GPU drawing is claimed.",
+    "Phase tests model the observed Unity native constraint: transitioning Renderer.enabled from false to true inside rendering records Enabling or adding a Renderer during rendering is not allowed. Getter still returns true. A separate modeled renderRegistration remains false, reproducing the screenshots' enabled-but-invisible condition; exact Unity internal registration state is not claimed. Outside rendering the same transition succeeds. Phase flag surrounds only actual OnPreRender, not Update/LateUpdate.",
+    "exPlane.spriteMng native owner lookup returns its configured test manager. Native GetComponent returns configured Renderer or exPixelPerfect when compatible; others are null. Unity null operators use reference identity. UI font.text and sprite.color setters remain actual.",
+    "Mesh tests retain actual exSprite.ForceUpdateMesh/Commit/UpdateMesh, vertex/UV/bounds/color generation. Unity Mesh storage, MeshFilter.sharedMesh, Renderer.sharedMaterial, Material.mainTexture, Texture dimensions and Mesh.Clear are native shims; native Mesh construction is bypassed. Scene fixtures use anchors 3/5, sprite/texture dimensions 132 x 9, clip height 10, texture offset true, trim UV [0,0,1,1], unit scale and white tint. Non-mesh tests use a 132 x 12 logical child rectangle."
+  ],
+  "metrics": {
+    "phaseFirstResetAnchor3": {
+      "nativeErrors": 0,
+      "charge": 1.0555555,
+      "meshSpan": 1.0555573,
+      "spriteEnabled": true,
+      "rendererEnabled": true,
+      "modeledRegistration": true
+    },
+    "phaseFirstResetAnchor5": {
+      "nativeErrors": 0,
+      "charge": 1.0555555,
+      "meshSpan": 1.0555573,
+      "spriteEnabled": true,
+      "rendererEnabled": true,
+      "modeledRegistration": true
+    },
+    "phaseRepeatedBothSides": [
+      {
+        "cycle": 0,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 0,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": true,
+        "rightModeledRegistration": true
+      },
+      {
+        "cycle": 1,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 0,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": true,
+        "rightModeledRegistration": true
+      },
+      {
+        "cycle": 2,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 0,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": true,
+        "rightModeledRegistration": true
+      },
+      {
+        "cycle": 3,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 0,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": true,
+        "rightModeledRegistration": true
+      },
+      {
+        "cycle": 4,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 0,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": true,
+        "rightModeledRegistration": true
+      },
+      {
+        "cycle": 5,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 0,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": true,
+        "rightModeledRegistration": true
+      }
+    ],
+    "phaseMenuPause": {
+      "menuCharge": 60,
+      "runningCharge": 61.055557,
+      "magicCharge": 62.111115,
+      "errors": 0
+    }
+  },
+  "tests": [
+    {
+      "name": "renderer reactivation occurs before native render phase after first skill reset at anchor=3",
+      "passed": true
+    },
+    {
+      "name": "renderer reactivation occurs before native render phase after first skill reset at anchor=5",
+      "passed": true
+    },
+    {
+      "name": "both actual scene anchors retain visible meshes through six releases under native phase constraint",
+      "passed": true
+    },
+    {
+      "name": "render-phase fix preserves Menu pause and resumes unchanged charge rate",
+      "passed": true
+    }
+  ]
+}

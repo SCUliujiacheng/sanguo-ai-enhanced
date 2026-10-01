@@ -1,0 +1,130 @@
+{
+  "source": "<workspace>\\work\\auto-fix-v1.4.1\\Assembly-CSharp.dll",
+  "sha256": "5701378b5d06476cb99881e21fde5892ae64ac8737e216f195ee7562fb217433",
+  "failures": 3,
+  "adaptations": [
+    "Actual supplied WSInfoPanel.Update, OnGeneralInfoUpdate, OnTimeLeftUpdate, OnSwordStateUpdate, optional real WSInfoPanel.LateUpdate, actual ex2D exSoftClip.width/Commit/UpdateClipInfo, exPlane.clipInfo and exSpriteMng.OnPreRender run. Unity Behaviour.enabled dispatches actual OnEnable/OnDisable only on transitions. Transform.position is zero; Time.deltaTime is 0.1 seconds. No Android scene or GPU drawing is claimed.",
+    "Phase tests model the observed Unity native constraint: transitioning Renderer.enabled from false to true inside rendering records Enabling or adding a Renderer during rendering is not allowed. Getter still returns true. A separate modeled renderRegistration remains false, reproducing the screenshots' enabled-but-invisible condition; exact Unity internal registration state is not claimed. Outside rendering the same transition succeeds. Phase flag surrounds only actual OnPreRender, not Update/LateUpdate.",
+    "exPlane.spriteMng native owner lookup returns its configured test manager. Native GetComponent returns configured Renderer or exPixelPerfect when compatible; others are null. Unity null operators use reference identity. UI font.text and sprite.color setters remain actual.",
+    "Mesh tests retain actual exSprite.ForceUpdateMesh/Commit/UpdateMesh, vertex/UV/bounds/color generation. Unity Mesh storage, MeshFilter.sharedMesh, Renderer.sharedMaterial, Material.mainTexture, Texture dimensions and Mesh.Clear are native shims; native Mesh construction is bypassed. Scene fixtures use anchors 3/5, sprite/texture dimensions 132 x 9, clip height 10, texture offset true, trim UV [0,0,1,1], unit scale and white tint. Non-mesh tests use a 132 x 12 logical child rectangle."
+  ],
+  "metrics": {
+    "phaseFirstResetAnchor3": {
+      "nativeErrors": 1,
+      "charge": 1.0555555,
+      "meshSpan": 1.0555573,
+      "spriteEnabled": true,
+      "rendererEnabled": true,
+      "modeledRegistration": false
+    },
+    "phaseFirstResetAnchor5": {
+      "nativeErrors": 1,
+      "charge": 1.0555555,
+      "meshSpan": 1.0555573,
+      "spriteEnabled": true,
+      "rendererEnabled": true,
+      "modeledRegistration": false
+    },
+    "phaseRepeatedBothSides": [
+      {
+        "cycle": 0,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 2,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": false,
+        "rightModeledRegistration": false
+      },
+      {
+        "cycle": 1,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 4,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": false,
+        "rightModeledRegistration": false
+      },
+      {
+        "cycle": 2,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 6,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": false,
+        "rightModeledRegistration": false
+      },
+      {
+        "cycle": 3,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 8,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": false,
+        "rightModeledRegistration": false
+      },
+      {
+        "cycle": 4,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 10,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": false,
+        "rightModeledRegistration": false
+      },
+      {
+        "cycle": 5,
+        "leftCharge": 132,
+        "rightCharge": 132,
+        "leftSpan": 132,
+        "rightSpan": 132,
+        "errors": 12,
+        "leftEnabled": true,
+        "rightEnabled": true,
+        "leftModeledRegistration": false,
+        "rightModeledRegistration": false
+      }
+    ],
+    "phaseMenuPause": {
+      "menuCharge": 60,
+      "runningCharge": 61.055557,
+      "magicCharge": 62.111115,
+      "errors": 0
+    }
+  },
+  "tests": [
+    {
+      "name": "renderer reactivation occurs before native render phase after first skill reset at anchor=3",
+      "passed": false,
+      "error": "System.Exception: Native Renderer enable attempted during rendering (1 errors); enabled getter=True, modeled submission=False\r\n   at UiAudit.Assert(Boolean v, String why) in <workspace>\\tools\\ManualLifecycleAudit\\Program.cs:line 96\r\n   at UiAudit.<>c__DisplayClass41_0.<PhaseCases>b__2() in <workspace>\\tools\\ManualLifecycleAudit\\Program.cs:line 155\r\n   at UiAudit.Test(String n, Action a) in <workspace>\\tools\\ManualLifecycleAudit\\Program.cs:line 97"
+    },
+    {
+      "name": "renderer reactivation occurs before native render phase after first skill reset at anchor=5",
+      "passed": false,
+      "error": "System.Exception: Native Renderer enable attempted during rendering (1 errors); enabled getter=True, modeled submission=False\r\n   at UiAudit.Assert(Boolean v, String why) in <workspace>\\tools\\ManualLifecycleAudit\\Program.cs:line 96\r\n   at UiAudit.<>c__DisplayClass41_0.<PhaseCases>b__2() in <workspace>\\tools\\ManualLifecycleAudit\\Program.cs:line 155\r\n   at UiAudit.Test(String n, Action a) in <workspace>\\tools\\ManualLifecycleAudit\\Program.cs:line 97"
+    },
+    {
+      "name": "both actual scene anchors retain visible meshes through six releases under native phase constraint",
+      "passed": false,
+      "error": "System.Exception: Six releases caused 12 illegal native Renderer enable attempts during rendering\r\n   at UiAudit.Assert(Boolean v, String why) in <workspace>\\tools\\ManualLifecycleAudit\\Program.cs:line 96\r\n   at UiAudit.<PhaseCases>b__41_0() in <workspace>\\tools\\ManualLifecycleAudit\\Program.cs:line 169\r\n   at UiAudit.Test(String n, Action a) in <workspace>\\tools\\ManualLifecycleAudit\\Program.cs:line 97"
+    },
+    {
+      "name": "render-phase fix preserves Menu pause and resumes unchanged charge rate",
+      "passed": true
+    }
+  ]
+}

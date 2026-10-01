@@ -1,0 +1,146 @@
+{
+  "original": "<workspace>\\work\\auto-fix-v1.4.1\\Assembly-CSharp.dll",
+  "modified": "<workspace>\\work\\skill-meter-fix-v1.4.2\\Assembly-CSharp.dll",
+  "baseline_sha256": "5701378b5d06476cb99881e21fde5892ae64ac8737e216f195ee7562fb217433",
+  "mode": "timing-fix",
+  "runtime": "v2.0.50727",
+  "errors": [],
+  "added": [
+    {
+      "kind": "method",
+      "name": "System.Void WSInfoPanel::LateUpdate()"
+    },
+    {
+      "kind": "method",
+      "name": "System.Void WSInfoPanel::RefreshSkillMeterClipping(exSoftClip)"
+    }
+  ],
+  "writes": [],
+  "references": [
+    {
+      "method": "LateUpdate",
+      "reference": "System.Void WSInfoPanel::RefreshSkillMeterClipping(exSoftClip)",
+      "scope": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "location": "<workspace>\\work\\skill-meter-fix-v1.4.2\\Assembly-CSharp.dll"
+    },
+    {
+      "method": "LateUpdate",
+      "reference": "System.Void WSInfoPanel::RefreshSkillMeterClipping(exSoftClip)",
+      "scope": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "location": "<workspace>\\work\\skill-meter-fix-v1.4.2\\Assembly-CSharp.dll"
+    },
+    {
+      "method": "RefreshSkillMeterClipping",
+      "reference": "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)",
+      "scope": "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "location": "<workspace>\\work\\managed\\UnityEngine.dll"
+    },
+    {
+      "method": "RefreshSkillMeterClipping",
+      "reference": "System.Boolean UnityEngine.Behaviour::get_enabled()",
+      "scope": "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "location": "<workspace>\\work\\managed\\UnityEngine.dll"
+    },
+    {
+      "method": "RefreshSkillMeterClipping",
+      "reference": "System.Void exPlane::Commit()",
+      "scope": "ex2D.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "location": "<workspace>\\work\\managed\\ex2D.Runtime.dll"
+    },
+    {
+      "method": "RefreshSkillMeterClipping",
+      "reference": "System.Void exSoftClip::UpdateClipInfo()",
+      "scope": "ex2D.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "location": "<workspace>\\work\\managed\\ex2D.Runtime.dll"
+    }
+  ],
+  "resources": [
+    {
+      "name": "Scenarios.HistoricalRecruitment.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MenuFont.LICENSE.txt",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MenuFont.NOTICE.txt",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MenuFont.png",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MenuFont.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MOD06.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MOD07.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MOD08.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MOD09.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MOD10.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MOD11.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MOD12.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MOD13.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.MOD14.xml",
+      "same": true
+    },
+    {
+      "name": "Scenarios.RulerFlags.LICENSE.txt",
+      "same": true
+    },
+    {
+      "name": "Scenarios.RulerFlags.NOTICE.txt",
+      "same": true
+    },
+    {
+      "name": "Scenarios.RulerFlags.png",
+      "same": true
+    },
+    {
+      "name": "Scenarios.RulerFlags.xml",
+      "same": true
+    }
+  ],
+  "newMethodBodies": [
+    {
+      "name": "System.Void WSInfoPanel::LateUpdate()",
+      "canonical_il": "INIT False STACK 8\n\nldarg.0 \nldarg.0 \nldfld exSoftClip WSInfoPanel::leftSwordClipping\ncall System.Void WSInfoPanel::RefreshSkillMeterClipping(exSoftClip)\nldarg.0 \nldarg.0 \nldfld exSoftClip WSInfoPanel::rightSwordClipping\ncall System.Void WSInfoPanel::RefreshSkillMeterClipping(exSoftClip)\nret \n"
+    },
+    {
+      "name": "System.Void WSInfoPanel::RefreshSkillMeterClipping(exSoftClip)",
+      "canonical_il": "INIT False STACK 8\n\nldarg.1 \nldnull \ncall System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)\nbrfalse @11\nldarg.1 \ncallvirt System.Boolean UnityEngine.Behaviour::get_enabled()\nbrfalse @11\nldarg.1 \ncallvirt System.Void exPlane::Commit()\nldarg.1 \ncallvirt System.Void exSoftClip::UpdateClipInfo()\nret \n"
+    }
+  ],
+  "original_type_count": 456,
+  "original_field_count": 3109,
+  "original_method_count": 3344,
+  "limitation": "Original member IL and profile resolution checked; actual Android native rendering remains subject to phone retest.",
+  "modified_sha256": "a3b8d24d0335c358c6203cd3d3d4dc253bcebabf285053a8e3bb41e81d30511f"
+}
