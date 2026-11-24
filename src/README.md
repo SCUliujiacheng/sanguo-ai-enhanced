@@ -34,3 +34,5 @@ v1.4.0 新增辅助规则：
 | [FactionFlagArt.cs](FactionFlagArt.cs) / [FactionFlagRules.cs](FactionFlagRules.cs) | 君主姓氏旗帜图集、四帧动画与原旗帜选择。 |
 
 完整进攻调度仍位于游戏控制器中；此处是可审阅的辅助规则，不是可单独编译的完整游戏源码。
+
+v1.6.0 的[难度规则](CampaignDifficulty.cs)和[恢复、收入与运金](CampaignEconomy.cs)供查阅。
